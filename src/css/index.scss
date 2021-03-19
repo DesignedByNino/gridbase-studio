@@ -1,0 +1,284 @@
+// Questrial - Master font
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+// Arimo
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+// Cormorant Garamond
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+// Darker Grotesque
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap");
+
+// color variables
+$grid-black: #0b0b0b;
+$grid-brown: #2c1608;
+$nav-line: #979797;
+$dev-green: #b8e1cc;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+// nav component
+.main-nav {
+  z-index: 99;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: -0.1px;
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%;
+  min-height: 53px;
+  max-height: 53px;
+  height: 53px;
+  background-color: #fff;
+}
+.logo-wrap {
+  min-height: 53px;
+  max-height: 53px;
+  height: 53px;
+  // border: 1px solid #979797;
+  border-top: 0;
+  border-right: 1px solid $nav-line;
+  border-bottom: 1px solid $nav-line;
+  border-left: 0;
+  min-width: 241.5px;
+  width: 241.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .logo {
+    position: relative;
+    top: 1px;
+    min-width: 127px;
+    max-width: 127px;
+    width: 127px;
+  }
+}
+.middle-space {
+  min-height: 53px;
+  max-height: 53px;
+  height: 53px;
+  min-width: 732px;
+  max-width: 732px;
+  width: 732px;
+  border-top: 0;
+  border-right: 1px solid $nav-line;
+  border-bottom: 1px solid $nav-line;
+  border-left: 0;
+}
+.lang-switch-wrap {
+  min-height: 53px;
+  max-height: 53px;
+  height: 53px;
+  min-width: 59px;
+  max-width: 59px;
+  width: 59px;
+  border-top: 0;
+  border-right: 1px solid $nav-line;
+  border-bottom: 1px solid $nav-line;
+  border-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .nav-switch {
+    position: relative;
+    top: 1px;
+    min-width: 29px;
+    max-width: 29px;
+    width: 29px;
+    min-height: 29px;
+    max-height: 29px;
+    height: 29px;
+  }
+}
+.link-one-wrap {
+  min-width: 136px;
+  max-width: 136px;
+  width: 136px;
+  min-height: 53px;
+  max-height: 53px;
+  height: 53px;
+  border-top: 0;
+  border-right: 1px solid $nav-line;
+  border-bottom: 1px solid $nav-line;
+  border-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .services-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 19px;
+    font-weight: 200;
+  }
+}
+.link-two-wrap {
+  min-height: 53px;
+  max-height: 53px;
+  height: 53px;
+  min-width: 134px;
+  max-width: 134px;
+  width: 134px;
+  border-top: 0;
+  border-right: 1px solid $nav-line;
+  border-bottom: 1px solid $nav-line;
+  border-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .about-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 19px;
+    font-weight: 200;
+  }
+}
+.contact-el-wrap {
+  min-height: 53px;
+  max-height: 53px;
+  height: 53px;
+  min-width: 136px;
+  max-width: 136px;
+  width: 136px;
+  border-top: 0;
+  border-bottom: 1px solid $nav-line;
+  border-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .contact-btn {
+    min-width: 32px;
+    max-width: 32px;
+    width: 32px;
+    position: relative;
+    left: 0.4px;
+    top: 0.2px;
+  }
+  // .contact-link {
+  //   text-decoration: none;
+  //   color: inherit;
+  //   font-size: 19px;
+  //   font-weight: 200;
+  // }
+}
+
+// hero component
+.hero-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  .left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 88px;
+    position: relative;
+    right: 30px;
+    .main-img {
+      max-width: 770px;
+      min-width: 770px;
+      width: 770px;
+    }
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 355px;
+    min-width: 355px;
+    width: 355px;
+    position: relative;
+    right: 120px;
+    .main-heading {
+      font-size: 40px;
+      font-weight: 200;
+      line-height: 49px;
+    }
+    .hero-descrip {
+      font-size: 19px;
+      line-height: 30px;
+      margin-bottom: 28px;
+    }
+    .button-wrap {
+      min-width: 285px;
+      max-width: 285px;
+      width: 285px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 65px;
+      .hero-btn {
+        font-family: inherit;
+        font-size: 31px;
+        background-color: transparent;
+        border: 0;
+      }
+      .hero-btn:hover {
+        cursor: pointer;
+        transform: scale(0.9);
+        transition: 0.3s ease-out;
+      }
+      .hero-btn:focus {
+        outline: 0;
+      }
+    }
+  }
+}
+
+// ideas-section
+.ideas {
+  position: relative;
+  padding: 15px 60px;
+  .massive-h1 {
+    position: relative;
+    font-size: 200px;
+    font-weight: 300;
+    line-height: 235px;
+    margin-bottom: 0;
+    .ideas-h3 {
+      position: absolute;
+      top: 184px;
+      left: 490px;
+      font-size: 84px;
+      font-weight: 300;
+    }
+  }
+  .absolute-8 {
+    opacity: 9%;
+    min-width: 600px;
+    position: absolute;
+    top: 510px;
+    right: -200px;
+  }
+  .idea-one {
+    // background-color: $dev-green;
+    max-width: 326px;
+    position: relative;
+    left: 380px;
+    font-size: 19px;
+    font-weight: 300;
+  }
+  .idea-two {
+    // background-color: $dev-green;
+    max-width: 326px;
+    position: relative;
+    top: 40px;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: right;
+  }
+}

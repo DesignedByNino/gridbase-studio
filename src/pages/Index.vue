@@ -1,0 +1,102 @@
+<template>
+  <div id="homepage">
+    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
+    <div class="main-nav">
+      <div class="logo-wrap">
+        <g-link to="/" class="homepage-link">
+          <g-image class="logo" src="~/images/gridbase-default.svg" alt="" />
+        </g-link>
+      </div>
+      <div class="middle-space"></div>
+      <div class="lang-switch-wrap">
+        <g-link to="/" class="homepage-link">
+          <g-image class="nav-switch" src="~/images/lang-switch.svg" alt="" />
+        </g-link>
+      </div>
+      <div class="link-one-wrap">
+        <a class="services-link" href="#anchor">services</a>
+      </div>
+      <div class="link-two-wrap">
+        <g-link class="about-link" to="/about/">about</g-link>
+      </div>
+      <div class="contact-el-wrap">
+        <g-link to="/contact/" class="contact-link">
+          <g-image
+            src="~/images/gridbase-single.svg"
+            alt=""
+            class="contact-btn"
+          />
+        </g-link>
+      </div>
+    </div>
+    <!-- nav component end -->
+
+    <!-- main hero wrapper -->
+    <div class="hero-wrap">
+      <div class="left-side">
+        <g-image
+          src="~/images/down-right-arrow.svg"
+          alt=""
+          class="hero-arrow"
+        />
+        <g-image
+          class="main-img"
+          src="~/images/new-hero-img-asset.png"
+          alt=""
+        />
+      </div>
+      <div class="right-side">
+        <h1 class="main-heading">Together building better brands.</h1>
+        <p class="hero-descrip">
+          Our goal is to make people understand each other better through
+          design, development, art direction and photography.
+        </p>
+        <div class="button-wrap">
+          <button class="hero-btn">see our work</button>
+          <g-image class="btn-arrow" src="~/images/curved-arrow.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ideas section -->
+    <div class="ideas">
+      <h1 class="massive-h1">
+        FIND YOUR IDEA
+        <h3 class="ideas-h3">& VOICE</h3>
+      </h1>
+      <g-image src="~/images/figure-8.svg" class="absolute-8" />
+      <p class="idea-one">
+        We believe every story has right to be told on fare grounds. Design,
+        development and visuals are just small gears in a constantly moving
+        mechanism. It is the purposeful craftsmanship that pulls them to work
+        efficiently together, this is our job, our mission.
+      </p>
+      <p class="idea-two">
+        Explore below the ideas we have put together to help our partners
+        understand their position in the digital world and made their message a
+        clear voice .
+      </p>
+    </div>
+    <!-- component div - last element -->
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Homepage",
+  metaInfo() {
+    return {
+      title: "gridbase studio®",
+    };
+  },
+};
+</script>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+.home-links a {
+  margin-right: 1rem;
+}
+</style>

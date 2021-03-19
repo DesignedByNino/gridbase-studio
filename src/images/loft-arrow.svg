@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="28px" viewBox="0 0 50 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GRAY-PROJECT---VICE-HOME" transform="translate(-695.000000, -436.000000)" fill="#1D1D1D" fill-rule="nonzero">
+            <g id="Group" transform="translate(695.000000, 436.000000)">
+                <path d="M49.1,15.7 L38.1,4.7 C38.1,4.7 38,4.7 38,4.7 L35.7,7 C35.6,7.1 35.6,7.1 35.7,7.2 L42.8,14.3 C42.9,14.4 42.8,14.5 42.7,14.5 L6.2,14.5 C5.1,14.5 4.2,13.6 4.2,12.5 L4.2,1 C4.2,0.9 4.1,0.7 3.9,0.7 L1,0.7 C0.9,0.7 0.8,0.8 0.8,1 L0.8,13.5 C0.8,16 2.8,18 5.3,18 L42.4,18 C42.5,18 42.6,18.1 42.5,18.2 L35.8,24.9 C35.7,25 35.7,25.1 35.8,25.2 L37.9,27.3 C38,27.4 38.1,27.4 38.2,27.3 L49.1,16.4 C49.2,16.2 49.2,15.9 49.1,15.7 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
