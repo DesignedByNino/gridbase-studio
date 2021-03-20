@@ -1,36 +1,6 @@
 <template>
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <!-- <div class="main-nav">
-      <div class="logo-wrap">
-        <g-link to="/" class="homepage-link">
-          <g-image class="logo" src="~/images/gridbase-default.svg" alt="" />
-        </g-link>
-      </div>
-      <div class="middle-space"></div>
-      <div class="lang-switch-wrap">
-        <g-link to="/" class="homepage-link">
-          <g-image class="nav-switch" src="~/images/lang-switch.svg" alt="" />
-        </g-link>
-      </div>
-      <div class="link-one-wrap">
-        <a class="services-link" href="#anchor">services</a>
-      </div>
-      <div class="link-two-wrap">
-        <g-link class="about-link" to="/about/">about</g-link>
-      </div>
-      <div class="contact-el-wrap">
-        <g-link to="/contact/" class="contact-link">
-          <g-image
-            src="~/images/gridbase-single.svg"
-            alt=""
-            class="contact-btn"
-          />
-        </g-link>
-      </div>
-    </div> -->
-    <!-- nav component end -->
-
     <!-- main hero wrapper -->
     <div class="hero-wrap">
       <div class="left-side">
