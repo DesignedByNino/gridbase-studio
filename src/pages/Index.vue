@@ -1,7 +1,7 @@
 <template>
-  <div id="homepage">
+  <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <div class="main-nav">
+    <!-- <div class="main-nav">
       <div class="logo-wrap">
         <g-link to="/" class="homepage-link">
           <g-image class="logo" src="~/images/gridbase-default.svg" alt="" />
@@ -28,7 +28,7 @@
           />
         </g-link>
       </div>
-    </div>
+    </div> -->
     <!-- nav component end -->
 
     <!-- main hero wrapper -->
@@ -77,13 +77,11 @@
         clear voice .
       </p>
     </div>
-    <!-- component div - last element -->
-    <!-- <Footer /> -->
-  </div>
+  </Layout>
 </template>
 
 <script>
-import Footer from "~/components/Footer.vue";
+// import Footer from "~/components/Footer.vue";
 export default {
   name: "Homepage",
   // components: {

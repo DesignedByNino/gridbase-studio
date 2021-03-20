@@ -2,7 +2,8 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue';
-import Footer from "~/components/Footer.vue";
+
+// importing styles below 
 import '~/css/index.scss'
 
 export default function (Vue, { router, head, isClient }) {
