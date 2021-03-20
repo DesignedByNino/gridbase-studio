@@ -12,6 +12,7 @@ $grid-black: #0b0b0b;
 $grid-brown: #2c1608;
 $nav-line: #979797;
 $dev-green: #b8e1cc;
+$dev-blue: #0a437a;
 
 * {
   box-sizing: border-box;
@@ -89,7 +90,7 @@ body {
   justify-content: center;
   .nav-switch {
     position: relative;
-    top: 1px;
+    top: 2px;
     min-width: 29px;
     max-width: 29px;
     width: 29px;
@@ -117,7 +118,7 @@ body {
     text-decoration: none;
     color: inherit;
     font-size: 19px;
-    font-weight: 200;
+    font-weight: 300;
   }
 }
 .link-two-wrap {
@@ -179,6 +180,8 @@ body {
   justify-content: space-between;
   margin-top: 90px;
   margin-bottom: 70px;
+  position: relative;
+  top: 35px;
   .left-side {
     display: flex;
     flex-direction: row;
@@ -194,6 +197,7 @@ body {
     }
   }
   .right-side {
+    // background-color: $dev-green;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -202,7 +206,8 @@ body {
     min-width: 355px;
     width: 355px;
     position: relative;
-    right: 120px;
+    top: 0px;
+    right: 106px;
     .main-heading {
       font-size: 40px;
       font-weight: 200;
@@ -214,13 +219,13 @@ body {
       margin-bottom: 28px;
     }
     .button-wrap {
-      min-width: 285px;
-      max-width: 285px;
-      width: 285px;
+      min-width: inherit;
       display: flex;
       flex-direction: column;
       align-items: center;
       padding-top: 65px;
+      position: relative;
+      right: 26px;
       .hero-btn {
         font-family: inherit;
         font-size: 31px;
@@ -234,6 +239,10 @@ body {
       }
       .hero-btn:focus {
         outline: 0;
+      }
+      .btn-arrow {
+        min-width: inherit;
+        transform: scale(0.85);
       }
     }
   }
@@ -277,6 +286,7 @@ body {
     max-width: 326px;
     position: relative;
     top: 40px;
+    left: 42px;
     font-size: 19px;
     font-weight: 300;
     text-align: right;

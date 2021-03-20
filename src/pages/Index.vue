@@ -78,15 +78,20 @@
       </p>
     </div>
     <!-- component div - last element -->
+    <!-- <Footer /> -->
   </div>
 </template>
 
 <script>
+import Footer from "~/components/Footer.vue";
 export default {
   name: "Homepage",
+  // components: {
+  //   Footer,
+  // },
   metaInfo() {
     return {
-      title: "gridbase studio®",
+      title: "gridbase studio® | Home",
     };
   },
 };

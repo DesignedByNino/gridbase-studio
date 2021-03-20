@@ -9,7 +9,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Contact",
+    title: "Contact ➛ gridbase studio®",
   },
 };
 </script>
