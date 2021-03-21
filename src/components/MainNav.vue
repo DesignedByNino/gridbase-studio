@@ -191,7 +191,7 @@ $dev-blue: #0a437a;
     max-width: 32px;
     width: 32px;
     position: relative;
-    left: 0.4px;
+    left: 0.3px;
     top: 0.2px;
   }
   // .contact-link {

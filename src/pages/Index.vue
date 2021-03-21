@@ -1,6 +1,10 @@
 <template>
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
+    <div class="contact-indicator">
+      <g-image src="~/images/next-bl.svg" class="home-contact-arrow" />
+      <h5 class="home-contact-text">contact us</h5>
+    </div>
     <!-- main hero wrapper -->
     <div class="hero-wrap">
       <div class="left-side">

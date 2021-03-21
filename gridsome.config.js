@@ -5,7 +5,6 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  titleTemplate: 'gridbase studio®',
   siteName: 'gridbase studio®',
   siteUrl: 'https://gridbase.studio',
 

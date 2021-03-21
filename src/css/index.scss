@@ -175,6 +175,27 @@ body {
 //   // }
 // }
 
+// Homepage Contact Indicator
+.contact-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 82px;
+  position: absolute;
+  top: 66px;
+  right: 33px;
+  .home-contact-arrow {
+    max-width: 15px;
+    opacity: 40%;
+  }
+  .home-contact-text {
+    opacity: 40%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
 // hero component
 .hero-wrap {
   display: flex;
