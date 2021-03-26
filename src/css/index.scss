@@ -14,6 +14,21 @@ $nav-line: #979797;
 $dev-green: #b8e1cc;
 $dev-blue: #0a437a;
 $dev-orange: #e8a64e;
+$dev-teal: #008996;
+
+// media breakpoint variables
+$mob-exslim: 320px;
+$mob-slim: 360px;
+$mob-regular: 375px;
+$mob-medium: 390px;
+$mob-plus: 414px;
+$mob-large: 428px;
+
+$tab-small: 719px;
+$tab-regular: 768px;
+$tab-medium: 834px;
+$tab-large: 1024px;
+$tab-xlarge: 1366px;
 
 * {
   box-sizing: border-box;
@@ -314,5 +329,62 @@ body {
     font-size: 19px;
     font-weight: 300;
     text-align: right;
+  }
+}
+
+// Responsive Mobile design
+
+@media screen and (min-width: $mob-exslim) and (max-width: 1020px) {
+  .contact-indicator {
+    display: none;
+  }
+  .hero-wrap {
+    // disable left side of the hero
+    .left-side {
+      display: none;
+      .main-img {
+        display: none;
+      }
+      .hero-arrow {
+        display: none;
+      }
+    }
+
+    // disable the right side of the hero
+    .right-side {
+      display: none;
+      .main-heading {
+        display: none;
+      }
+      .hero-descrip {
+        display: none;
+      }
+      .button-wrap {
+        display: none;
+        .hero-btn {
+          display: none;
+        }
+        .btn-arrow {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // disable parts of the ideas section  || might be changed later !!
+  .massive-h1 {
+    display: none;
+  }
+  .ideas-h3 {
+    display: none;
+  }
+  .absolute-8 {
+    display: none;
+  }
+  .idea-one {
+    display: none;
+  }
+  .idea-two {
+    display: none;
   }
 }

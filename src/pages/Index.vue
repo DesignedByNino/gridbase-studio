@@ -7,6 +7,11 @@
     </div>
     <!-- main hero wrapper -->
     <div class="hero-wrap">
+      <!-- mobile development start -->
+      <div class="mobile-title">
+        <h2 class="mobile-h2">Together building better brands.</h2>
+      </div>
+      <!-- mobile development end -->
       <div class="left-side">
         <g-image
           src="~/images/down-right-arrow.svg"

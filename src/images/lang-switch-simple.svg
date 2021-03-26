@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lang-switch btn</title>
+    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Galaxy-S10" transform="translate(-223.000000, -82.000000)" fill="#0B0B0B" fill-rule="nonzero">
+            <g id="NavBar--@360px" transform="translate(-8.000000, 64.000000)">
+                <g id="lang-switch-btn" transform="translate(231.500000, 18.500000)">
+                    <g id="Group" transform="translate(4.500000, 8.500000)">
+                        <polygon id="Path" points="2.30908 8.89355 7.90723 8.89355 7.90723 10.36914 0.49123 10.36914 0.49123 0.23535 7.72707 0.23535 7.72707 1.81935 2.30907 1.81935 2.30907 4.4834 6.46728 4.4834 6.46728 5.99512 2.30908 5.99512"></polygon>
+                        <polygon id="Path" points="16.5293 0.23535 18.4375 0.23535 18.4375 10.36914 14.94531 10.36914 11.4707 1.04492 11.43555 1.04492 11.43555 10.36914 9.54541 10.36914 9.54541 0.23535 12.78516 0.23535 16.49316 9.55957 16.5293 9.55957"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

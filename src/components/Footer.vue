@@ -61,6 +61,20 @@ $dev-blue: #0a437a;
 $dev-orange: #e8a64e;
 $dev-teal: #008996;
 
+// media breakpoint variables
+$mob-exslim: 320px;
+$mob-slim: 360px;
+$mob-regular: 375px;
+$mob-medium: 390px;
+$mob-plus: 414px;
+$mob-large: 428px;
+
+$tab-small: 719px;
+$tab-regular: 768px;
+$tab-medium: 834px;
+$tab-large: 1024px;
+$tab-xlarge: 1366px;
+
 * {
   box-sizing: border-box;
 }
@@ -161,5 +175,72 @@ body {
       font-weight: 300;
     }
   }
+}
+
+// Responsive Mobile design
+
+// Global ViewPort Changes
+@media screen and (min-width: $mob-exslim) and (max-width: 1020px) {
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    max-width: 100vw;
+    padding: 0;
+    .flex-foo-cont {
+      max-width: 100vw;
+      padding: 0 17px;
+      .foo-top-wrap {
+        max-width: 100vw;
+        width: 100%;
+        background-color: $dev-orange;
+        padding: 0;
+        .foo-top-title {
+          font-size: 22px;
+          text-align: center;
+        }
+        .foo-top-adj {
+          // display: none;
+          font-size: 14px;
+        }
+      }
+      .flex-foo-body {
+        max-width: 100vw;
+        width: 100%;
+        padding: 0;
+        .foo-inline-features {
+          display: none;
+          max-width: 100vw;
+          width: 100%;
+          .foo-feature {
+            display: none;
+            font-size: 18px;
+            letter-spacing: 1.5px;
+          }
+        }
+        .foo-homepage-link {
+          .foo-logo {
+            margin-top: 35px;
+            min-width: 300px;
+            margin-bottom: 19px;
+            position: relative;
+            right: 0px;
+          }
+        }
+        .foo-public-text {
+          margin-top: 80px;
+          text-align: center;
+          font-weight: 300;
+          font-size: 20px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+// BreakPoint 360px
+@media screen and (min-width: $mob-slim) and (max-width: 374px) {
 }
 </style>

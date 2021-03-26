@@ -1,23 +1,65 @@
 <template>
   <div class="navbar">
     <div class="main-nav">
+      <!-- Logo container -->
       <div class="logo-wrap">
         <g-link to="/" class="homepage-link">
           <g-image class="logo" src="~/images/gridbase-default.svg" alt="" />
         </g-link>
       </div>
+      <!-- Logo container end -->
       <div class="middle-space"></div>
+      <!-- Language Switch Container -->
       <div class="lang-switch-wrap">
         <g-link to="/" class="homepage-link">
           <g-image class="nav-switch" src="~/images/lang-switch.svg" alt="" />
+          <g-image
+            src="~/images/lang-switch-simple.svg"
+            class="nav-switch-simple"
+          />
         </g-link>
       </div>
+      <!-- Language Switch Container end -->
+      <!--  -->
+      <!-- mobile menu nav -->
+      <div class="mobile-menu-wrap">
+        <g-image src="~/images/burger-menu-classic.svg" class="menu-icon" />
+        <!-- open menu wrapper -->
+        <div class="open-menu-warp closed-menu-wrap">
+          <!-- menu links container -->
+          <div class="menu-top-links">
+            <g-link to="/" class="menu-link">services</g-link>
+            <g-link to="/about" class="menu-link">about</g-link>
+            <g-link to="/work" class="menu-link">work gallery</g-link>
+          </div>
+          <!-- menu links container end -->
+          <!--  -->
+          <!-- menu contact section -->
+          <div class="menu-contact-section">
+            <g-image
+              src="~/images/gridbase-single.svg"
+              class="menu-contact-icon"
+            />
+            <g-link to="/contact" class="menu-contact-link">Contact Us</g-link>
+          </div>
+          <!-- menu contact section end -->
+        </div>
+        <!-- open menu wrapper end -->
+      </div>
+      <!-- mobile menu nav end -->
+      <!--  -->
+      <!-- Link One Container -->
       <div class="link-one-wrap">
         <a class="services-link" href="#anchor">services</a>
       </div>
+      <!-- link One Container end -->
+      <!-- Link Two Container -->
       <div class="link-two-wrap">
         <g-link class="about-link" to="/about/">about</g-link>
       </div>
+      <!-- Link Two Container end -->
+      <!--  -->
+      <!-- Desktop Contact Nav Container -->
       <div class="contact-el-wrap">
         <g-link to="/contact/" class="contact-link">
           <g-image
@@ -27,8 +69,11 @@
           />
         </g-link>
       </div>
+      <!-- Desktop Contact Nav Container end -->
     </div>
+    <!-- Main Nav Flex Wrapper End -->
   </div>
+  <!-- Vue Navbar Component Root End -->
 </template>
 
 <script>
@@ -53,6 +98,23 @@ $grid-brown: #2c1608;
 $nav-line: #979797;
 $dev-green: #b8e1cc;
 $dev-blue: #0a437a;
+$dev-orange: #e8a64e;
+$dev-teal: #008996;
+
+// media breakpoint variables
+$mob-exslim: 320px;
+$mob-slim: 360px;
+$mob-regular: 375px;
+$mob-medium: 390px;
+$mob-plus: 414px;
+$mob-large: 428px;
+
+$tab-small: 719px;
+$tab-regular: 768px;
+$tab-medium: 834px;
+$tab-large: 1024px;
+$tab-xlarge: 1366px;
+
 .main-nav {
   z-index: 99;
   display: flex;
@@ -127,6 +189,9 @@ $dev-blue: #0a437a;
     max-height: 29px;
     height: 29px;
   }
+  .nav-switch-simple {
+    display: none;
+  }
 }
 .link-one-wrap {
   min-width: 136px;
@@ -200,5 +265,187 @@ $dev-blue: #0a437a;
   //   font-size: 19px;
   //   font-weight: 200;
   // }
+}
+
+// Mobile Responsive Design
+
+@media screen and (min-width: $mob-exslim) and (max-width: 1020px) {
+  .navbar {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .main-nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      // background-color: $dev-green;
+      position: fixed;
+      top: -0.1px;
+      min-width: 100vw;
+      max-width: 100vw;
+      width: 100vw;
+      // min-height: 50px;
+      // max-height: 50px;
+      // height: 50px;
+      padding: 0 24px 0 12px;
+      margin: 0;
+      border-bottom: 1px solid $nav-line;
+      .logo-wrap {
+        // background-color: $dev-orange;
+        min-height: 50px;
+        max-height: 50px;
+        height: 50px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        min-width: 141.5px;
+        width: 141.5px;
+        .logo {
+          // background-color: $dev-teal;
+          position: relative;
+          top: 1.5px;
+          min-width: 127px;
+          max-width: 127px;
+          width: 127px;
+        }
+      }
+      .middle-space {
+        display: none;
+      }
+      .lang-switch-wrap {
+        min-height: 50px;
+        max-height: 50px;
+        height: 50px;
+        min-width: 59px;
+        max-width: 59px;
+        width: 59px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .nav-switch {
+          display: none;
+        }
+        .nav-switch-simple {
+          display: inline;
+          position: relative;
+          top: 2px;
+          min-width: 29px;
+          max-width: 29px;
+          width: 29px;
+          min-height: 29px;
+          max-height: 29px;
+          height: 29px;
+        }
+      }
+      .link-one-wrap {
+        display: none;
+        min-width: 0px;
+        max-width: 0px;
+        width: 0px;
+        min-height: 0px;
+        max-height: 0px;
+        height: 0px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        .services-link {
+          display: none;
+          text-decoration: none;
+          color: inherit;
+          font-size: 19px;
+          font-weight: 300;
+        }
+      }
+      .link-two-wrap {
+        display: none;
+        min-height: 0px;
+        max-height: 0px;
+        height: 0px;
+        min-width: 0px;
+        max-width: 0px;
+        width: 0px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        .about-link {
+          display: none;
+          text-decoration: none;
+          color: inherit;
+          font-size: 19px;
+          font-weight: 200;
+        }
+      }
+      .contact-el-wrap {
+        background-color: $dev-teal;
+        display: none;
+        min-height: 0px;
+        max-height: 0px;
+        height: 0px;
+        min-width: 0px;
+        max-width: 0px;
+        width: 0px;
+        border-top: 0;
+        border-bottom: 0;
+        border-left: 0;
+        .contact-link {
+          background-color: $dev-orange;
+          display: none;
+          text-decoration: none;
+          color: inherit;
+          font-size: 19px;
+          font-weight: 200;
+          .contact-btn {
+            background-color: $dev-blue;
+            display: none;
+            min-width: 0px;
+            max-width: 0px;
+            width: 0px;
+          }
+        }
+      }
+      .mobile-menu-wrap {
+        min-height: 50px;
+        max-height: 50px;
+        height: 50px;
+        min-width: 50px;
+        max-width: 50px;
+        width: 50px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .open-menu-warp {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 20px;
+          position: absolute;
+          right: 0;
+          max-width: 65vw;
+          min-width: 65vw;
+          width: 65vw;
+        }
+        .closed-menu-wrap {
+          display: none;
+        }
+      } // current nav wrapper | add new containers after this
+    } // main nav end
+  } // vue navbar component end
 }
 </style>
