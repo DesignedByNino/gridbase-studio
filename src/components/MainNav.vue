@@ -266,6 +266,9 @@ $tab-xlarge: 1366px;
   //   font-weight: 200;
   // }
 }
+.mobile-menu-wrap {
+  display: none;
+}
 
 // Mobile Responsive Design
 

@@ -9,7 +9,14 @@
     <div class="hero-wrap">
       <!-- mobile development start -->
       <div class="mobile-title">
-        <h2 class="mobile-h2">Together building better brands.</h2>
+        <div class="flex-left">
+          <h2 class="mobile-h2">Together building better brands.</h2>
+          <g-image src="~/images/hero-blur-round.png" class="mobile-hero-img" />
+        </div>
+        <p class="mobile-hero-p">
+          Our goal is to make people understand each other better through
+          design, development, art direction and photography.
+        </p>
       </div>
       <!-- mobile development end -->
       <div class="left-side">
