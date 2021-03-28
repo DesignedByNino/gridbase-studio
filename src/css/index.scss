@@ -342,6 +342,7 @@ body {
     display: none;
   }
   .hero-wrap {
+    margin-top: 70px;
     overflow-x: hidden;
     // disable left side of the hero
     .left-side {
@@ -376,8 +377,8 @@ body {
     .mobile-title {
       display: flex;
       flex-direction: column;
-      align-items: space-between;
-      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
       .flex-left {
         min-width: 100vw;
         width: 100vw;
@@ -405,11 +406,28 @@ body {
         }
       }
       .mobile-hero-p {
+        margin-left: -45px;
         font-size: 15.5px;
-        margin-top: 90px;
-        margin-left: 19px;
+        margin-top: 55px;
         max-width: 272px;
         line-height: 26px;
+      }
+      .mobile-hero-btn {
+        margin-top: 45px;
+        min-width: 191px;
+        max-width: 191px;
+        min-height: 53px;
+        height: 53px;
+        max-height: 53px;
+        border-radius: 14.5px;
+        background-color: $grid-black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
       }
     }
   }
@@ -429,5 +447,95 @@ body {
   }
   .idea-two {
     display: none;
+  }
+}
+// 375PX Breakpoint
+@media screen and (min-width: $mob-regular) and (max-width: 389px) {
+  .hero-wrap {
+    margin-top: 65px;
+  }
+  .mobile-title {
+    .mobile-hero-p {
+      margin-top: 50px;
+    }
+  }
+}
+
+// 375PX WIDTH & 667PX HEIGHT -- iPHONE 6,7,8
+@media screen and (min-width: $mob-regular) and (max-width: 389px),
+  screen and (min-height: 667px) and (max-height: 667px) {
+  .hero-wrap {
+    margin-top: 65px;
+  }
+  .mobile-title {
+    .mobile-hero-p {
+      margin-top: 40px;
+    }
+  }
+}
+
+// 375PX WIDTH & 812PX HEIGHT -- iPHONE X, XS, 11 PRO
+@media screen and (min-width: $mob-regular) and (max-width: 389px),
+  screen and (max-height: 812px) {
+  .mobile-title {
+    .mobile-hero-p {
+      margin-top: 70px;
+    }
+  }
+}
+
+// 390PX BREAKPOINT -- iPHONE 12
+@media screen and (min-width: $mob-medium) and (max-width: 410px) {
+  .hero-wrap {
+    margin-top: 80px;
+  }
+}
+
+// 414PX BREAKPOINT -- iPHONE 6+,7+,8+ - XS MAX -  11 PRO MAX
+@media screen and (min-width: $mob-plus) and (max-width: 419px) {
+  .hero-wrap {
+    margin-top: 90px;
+  }
+  .mobile-title {
+    .flex-left {
+      .mobile-h2 {
+        font-size: 12px;
+        font-weight: 300;
+        text-align: right;
+        max-width: 298px;
+        width: 298px;
+        min-width: 298px;
+        margin: 8px 0 0 0;
+        padding: 0;
+      }
+      .mobile-hero-img {
+        min-width: 395px;
+        max-width: 395px;
+      }
+    }
+    .mobile-hero-p {
+      margin-left: -65px;
+      font-size: 17px;
+      margin-top: 55px;
+      max-width: 272px;
+      line-height: 26px;
+    }
+    .mobile-hero-btn {
+      margin-top: 65px;
+      min-width: 191px;
+      max-width: 191px;
+      min-height: 53px;
+      height: 53px;
+      max-height: 53px;
+      border-radius: 14.5px;
+      background-color: $grid-black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
 }

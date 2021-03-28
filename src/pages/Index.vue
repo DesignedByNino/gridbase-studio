@@ -9,14 +9,25 @@
     <div class="hero-wrap">
       <!-- mobile development start -->
       <div class="mobile-title">
+        <!-- top flex container -->
         <div class="flex-left">
           <h2 class="mobile-h2">Together building better brands.</h2>
           <g-image src="~/images/hero-blur-round.png" class="mobile-hero-img" />
         </div>
+        <!-- top flex container end -->
         <p class="mobile-hero-p">
           Our goal is to make people understand each other better through
           design, development, art direction and photography.
         </p>
+        <!-- mobile CTA button -->
+        <g-link to="/" class="mobile-hero-btn">
+          <span class="mobile-btn-text">see our work</span>
+          <g-image
+            src="~/images/gird-custom-arrow.svg"
+            class="mobile-btn-arrow"
+          />
+        </g-link>
+        <!-- mobile CTA button end -->
       </div>
       <!-- mobile development end -->
       <div class="left-side">
