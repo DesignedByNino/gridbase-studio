@@ -59,9 +59,9 @@
     <div class="ideas">
       <h1 class="massive-h1">
         FIND YOUR IDEA
-        <h3 class="ideas-h3">& VOICE</h3>
+        <h3 class="ideas-h3">AND VOICE</h3>
       </h1>
-      <g-image src="~/images/figure-8.svg" class="absolute-8" />
+      <g-image src="~/images/graphic-eight.svg" class="graphic-eight" />
       <p class="idea-one">
         We believe every story has right to be told on fare grounds. Design,
         development and visuals are just small gears in a constantly moving

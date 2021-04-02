@@ -10,12 +10,14 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
 
-
     // Adding head meta data
     head.meta.push({
       name: 'keywords',
       content: 'HTML,CSS,XML,JavaScript',
     })
 
-
+  // Catching some errors
+  Vue.config.errorHandler = function (err, vm, info) {
+    console.log(err, vm.$options);
+  };
 }
