@@ -2,7 +2,7 @@
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <div class="contact-indicator">
-      <g-image src="~/images/next-bl.svg" class="home-contact-arrow" />
+      <img src="../images/next-bl.svg" class="home-contact-arrow" />
       <h5 class="home-contact-text">contact us</h5>
     </div>
     <!-- main hero wrapper -->
@@ -12,7 +12,7 @@
         <!-- top flex container -->
         <div class="flex-left">
           <h2 class="mobile-h2">Împreună construim firme mai capabile.</h2>
-          <g-image src="~/images/hero-blur-round.png" class="mobile-hero-img" />
+          <img src="../images/hero-blur-round.png" class="mobile-hero-img" />
         </div>
         <!-- top flex container end -->
         <p class="mobile-hero-p">
@@ -22,25 +22,14 @@
         <!-- mobile CTA button -->
         <g-link to="/" class="mobile-hero-btn">
           <span class="mobile-btn-text">galerie proiecte</span>
-          <g-image
-            src="~/images/gird-custom-arrow.svg"
-            class="mobile-btn-arrow"
-          />
+          <img src="../images/gird-custom-arrow.svg" class="mobile-btn-arrow" />
         </g-link>
         <!-- mobile CTA button end -->
       </div>
       <!-- mobile development end -->
       <div class="left-side">
-        <g-image
-          src="~/images/down-right-arrow.svg"
-          alt=""
-          class="hero-arrow"
-        />
-        <g-image
-          class="main-img"
-          src="~/images/new-hero-img-asset.png"
-          alt=""
-        />
+        <img src="../images/down-right-arrow.svg" alt="" class="hero-arrow" />
+        <img class="main-img" src="../images/new-hero-img-asset.png" alt="" />
       </div>
       <div class="right-side">
         <h1 class="main-heading">Împreună construim firme mai capabile.</h1>
@@ -50,7 +39,7 @@
         </p>
         <div class="button-wrap">
           <button class="hero-btn">galerie proiecte</button>
-          <g-image class="btn-arrow" src="~/images/curved-arrow.svg" alt="" />
+          <img class="btn-arrow" src="../images/curved-arrow.svg" alt="" />
         </div>
       </div>
     </div>
@@ -61,7 +50,7 @@
         FIND YOUR IDEA
         <h3 class="ideas-h3">AND VOICE</h3>
       </h1>
-      <g-image src="~/images/graphic-eight.svg" class="graphic-eight" />
+      <img src="../images/graphic-eight.svg" class="graphic-eight" />
       <p class="idea-one">
         We believe every story has right to be told on fare grounds. Design,
         development and visuals are just small gears in a constantly moving
