@@ -18,10 +18,10 @@
         </div>
         <g-link to="/" class="foo-homepage-link">
           <!-- Logo Display -->
-          <g-image src="~/images/gridbase-default.svg" class="foo-logo" />
+          <img src="../images/gridbase-default.svg" class="foo-logo" />
           <!-- Homepage routing indicator -->
           <div class="flex-foo-home-indicator">
-            <g-image src="~/images/next.svg" class="foo-indicator-arrow" />
+            <img src="../images/next.svg" class="foo-indicator-arrow" />
             <h4 class="foo-indicator-text">BACK HOME</h4>
           </div>
         </g-link>
@@ -150,6 +150,8 @@ body {
       .foo-logo {
         margin-top: 180px;
         min-width: 607px;
+        max-width: 607px;
+        width: 607px;
         margin-bottom: 53px;
         position: relative;
         right: 47px;
@@ -201,7 +203,7 @@ body {
           text-align: center;
         }
         .foo-top-adj {
-          // display: none;
+          display: none;
           font-size: 14px;
         }
       }
@@ -241,6 +243,4 @@ body {
 }
 
 // BreakPoint 360px
-@media screen and (min-width: $mob-slim) and (max-width: 374px) {
-}
 </style>

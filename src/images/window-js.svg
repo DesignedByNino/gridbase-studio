@@ -1,58 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1047px" height="1128px" viewBox="0 0 1047 1128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>JS Window</title>
-    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Design-Elements" transform="translate(-988.000000, -332.000000)">
-            <g id="Code-Windows" transform="translate(0.000000, 0.000000)">
-                <g id="JS-Window" transform="translate(988.000000, 332.000000)">
-                    <rect id="Rectangle" stroke="#C2C2C2" stroke-width="3.99165" fill="#0B0B0B" x="1.995825" y="1.995825" width="1043.00835" height="1061.52894" rx="30.9621717"></rect>
-                    <path d="M3.86884807,193.203083 L112.196594,193.203083 L112.196594,1060.31639 L38.7012912,1060.31639 C19.4638641,1060.31639 3.86884807,1044.72137 3.86884807,1025.48394 L3.86884807,193.203083 L3.86884807,193.203083 Z" id="Code-Count-Side-Bar" fill="#1F1F1F"></path>
-                    <g id="code-text-body" transform="translate(184.330986, 349.038677)" font-family="MesloLGS-NF-Bold, MesloLGS NF" font-size="58.0540719" font-weight="bold" letter-spacing="4.00372939" line-spacing="116.108144">
-                        <text id="export-default-funct">
-                            <tspan x="0" y="57" fill="#E3E3E3">export default </tspan>
-                            <tspan x="0" y="173.108144" fill="#E3E3E3">function({ data }) { </tspan>
-                            <tspan x="0" y="289.216287" fill="#E3E3E3">   return &lt;</tspan>
-                            <tspan x="428.507516" y="289.216287" fill="#5594C6">Layout</tspan>
-                            <tspan x="662.238888" y="289.216287" fill="#E3E3E3">&gt;</tspan>
-                            <tspan x="701.194117" y="289.216287" fill="#E3E3E3"></tspan>
-                            <tspan x="0" y="405.324431" fill="#E3E3E3">             </tspan>
-                            <tspan x="0" y="521.432575" fill="#E3E3E3">   &lt;/</tspan>
-                            <tspan x="194.776144" y="521.432575" fill="#5594C6">Layout</tspan>
-                            <tspan x="428.507516" y="521.432575" fill="#E3E3E3">&gt;</tspan>
-                        </text>
-                    </g>
-                    <text id="1" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                        <tspan x="44.3583788" y="315.664308">1</tspan>
-                    </text>
-                    <text id="2" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                        <tspan x="44.3751999" y="425.890575">2</tspan>
-                    </text>
-                    <text id="3" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                        <tspan x="44.3751999" y="542.730419">3</tspan>
-                    </text>
-                    <text id="4" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                        <tspan x="44.3751999" y="658.83542">4</tspan>
-                    </text>
-                    <text id="5" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                        <tspan x="44.3751999" y="773.470738">5</tspan>
-                    </text>
-                    <text id="6" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                        <tspan x="44.3751999" y="889.57574">6</tspan>
-                    </text>
-                    <text id="7" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                        <tspan x="44.3751999" y="1005.68074">7</tspan>
-                    </text>
-                    <path d="M3.86884807,191.271052 L631.041337,191.271052 C633.178829,191.271052 634.911609,189.538272 634.911609,187.40078 L634.911609,83.8976109 C634.911609,73.2101514 643.575506,64.5462536 654.262966,64.5462536 L918.86005,64.5462536 C929.54751,64.5462536 938.211407,73.2101514 938.211407,83.8976109 L938.211407,187.40078 C938.211407,189.538272 939.944187,191.271052 942.081679,191.271052 L1043.07283,191.271052 L1043.07283,191.271052 L3.86884807,191.271052 Z" id="Line" stroke="#787878" stroke-width="3.99165" stroke-linecap="square"></path>
-                    <text id="index.js" font-family="SFProText-Regular, SF Pro Text" font-size="50.3135289" font-weight="normal" letter-spacing="3.46989891" fill="#A6A6A6">
-                        <tspan x="679.403365" y="152.329665">index.js</tspan>
-                    </text>
-                    <g id="Mac-OS-Windows-Control-Buttons" transform="translate(46.426177, 73.417171)">
-                        <ellipse id="Oval" fill="#FF5F4B" cx="26.1147245" cy="26.0824162" rx="26.1147245" ry="26.0824162"></ellipse>
-                        <ellipse id="Oval-Copy" fill="#FFBD02" cx="111.229382" cy="26.0824162" rx="26.1147245" ry="26.0824162"></ellipse>
-                        <ellipse id="Oval-Copy-2" fill="#00D000" cx="196.34404" cy="26.0824162" rx="26.1147245" ry="26.0824162"></ellipse>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1047 1065.5" style="enable-background:new 0 0 1047 1065.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0B0B0B;stroke:#C2C2C2;stroke-width:3.9917;}
+	.st1{fill:#1F1F1F;}
+	.st2{fill:#E3E3E3;}
+	.st3{font-family:'MesloLGS-NF-Bold';}
+	.st4{font-size:58.0541px;}
+	.st5{letter-spacing:3;}
+	.st6{fill:#5594C6;}
+	.st7{fill:#575757;}
+	.st8{font-family:'MesloLGS-NF-Regular';}
+	.st9{fill:none;stroke:#787878;stroke-width:3.9917;stroke-linecap:square;}
+	.st10{fill:#A6A6A6;}
+	.st11{font-family:'SFProText-Regular';}
+	.st12{font-size:50.3135px;}
+	.st13{fill:#FF5F4B;}
+	.st14{fill:#FFBD02;}
+	.st15{fill:#00D000;}
+</style>
+<title>JS Window</title>
+<g id="HOME">
+	<g id="Design-Elements" transform="translate(-988.000000, -332.000000)">
+		<g id="Code-Windows" transform="translate(0.000000, 0.000000)">
+			<g id="JS-Window" transform="translate(988.000000, 332.000000)">
+				<path id="Rectangle" class="st0" d="M33,2H1014c17.1,0,31,13.9,31,31v999.6c0,17.1-13.9,31-31,31H33c-17.1,0-31-13.9-31-31V33
+					C2,15.9,15.9,2,33,2z"/>
+				<path id="Code-Count-Side-Bar" class="st1" d="M3.9,193.2h108.3v867.1H38.7c-19.2,0-34.8-15.6-34.8-34.8V193.2L3.9,193.2z"/>
+				<g id="code-text-body" transform="translate(184.330986, 349.038677)">
+					<text transform="matrix(1 0 0 1 0 57)" class="st2 st3 st4 st5">export default </text>
+					<text transform="matrix(1 0 0 1 0 173.1081)" class="st2 st3 st4 st5">function({ data }) { </text>
+					<text transform="matrix(1 0 0 1 0 289.2163)" class="st2 st3 st4 st5">return &lt;</text>
+					<text transform="matrix(1 0 0 1 322.9716 289.2163)" class="st6 st3 st4 st5">Layout</text>
+					<text transform="matrix(1 0 0 1 565.2189 289.2163)" class="st2 st3 st4 st5">&gt;</text>
+					<text transform="matrix(1 0 0 1 0 521.4326)" class="st2 st3 st4 st5">&lt;/</text>
+					<text transform="matrix(1 0 0 1 80.9717 521.4326)" class="st6 st3 st4 st5">Layout</text>
+					<text transform="matrix(1 0 0 1 324.2192 521.4326)" class="st2 st3 st4 st5">&gt;</text>
+				</g>
+				<text transform="matrix(1 0 0 1 44.3584 315.6643)" class="st7 st8 st4 st5">1</text>
+				<text transform="matrix(1 0 0 1 44.3752 425.8906)" class="st7 st8 st4 st5">2</text>
+				<text transform="matrix(1 0 0 1 44.3752 542.7304)" class="st7 st8 st4 st5">3</text>
+				<text transform="matrix(1 0 0 1 44.3752 658.8354)" class="st7 st8 st4 st5">4</text>
+				<text transform="matrix(1 0 0 1 44.3752 773.4708)" class="st7 st8 st4 st5">5</text>
+				<text transform="matrix(1 0 0 1 44.3752 889.5757)" class="st7 st8 st4 st5">6</text>
+				<text transform="matrix(1 0 0 1 44.3752 1005.6807)" class="st7 st8 st4 st5">7</text>
+				<path id="Line" class="st9" d="M3.9,191.3H631c2.1,0,3.9-1.7,3.9-3.9V83.9c0-10.7,8.7-19.4,19.4-19.4h264.6
+					c10.7,0,19.4,8.7,19.4,19.4v103.5c0,2.1,1.7,3.9,3.9,3.9h101l0,0H3.9z"/>
+				<text transform="matrix(1 0 0 1 679.4034 152.3297)" class="st10 st11 st12 st5">index.js</text>
+				<g id="Mac-OS-Windows-Control-Buttons" transform="translate(46.426177, 73.417171)">
+					<ellipse id="Oval" class="st13" cx="26.1" cy="26.1" rx="26.1" ry="26.1"/>
+					<ellipse id="Oval-Copy" class="st14" cx="111.2" cy="26.1" rx="26.1" ry="26.1"/>
+					<ellipse id="Oval-Copy-2" class="st15" cx="196.3" cy="26.1" rx="26.1" ry="26.1"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

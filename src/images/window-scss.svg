@@ -1,46 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1047px" height="824px" viewBox="0 0 1047 824" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>SCSS Widow</title>
-    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="SCSS-Widow" transform="translate(0.000000, 0.000000)">
-            <rect id="Rectangle" stroke="#C2C2C2" stroke-width="3.99165" fill="#0B0B0B" x="1.995825" y="1.995825" width="1043.00835" height="819.031147" rx="30.9621717"></rect>
-            <path d="M3.86864677,193.203083 L112.196594,193.203083 L112.196594,819.474668 C86.5346039,819.474668 69.0688697,819.474668 59.7993916,819.474668 C47.1969284,819.474668 38.326053,819.474668 30.9676056,819.474668 C30.9676056,819.474668 30.9676056,819.474668 30.9676056,819.474668 C16.0012536,819.474668 3.86862807,807.342042 3.86864677,792.37569 L3.86864677,193.203083 L3.86864677,193.203083 Z" id="Code-Count-Side-Bar" fill="#1F1F1F"></path>
-            <text id="1" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                <tspan x="44.3583788" y="315.664308">1</tspan>
-            </text>
-            <text id="2" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                <tspan x="44.3751999" y="425.890575">2</tspan>
-            </text>
-            <text id="3" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                <tspan x="44.3751999" y="542.730419">3</tspan>
-            </text>
-            <text id="4" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                <tspan x="44.3751999" y="658.83542">4</tspan>
-            </text>
-            <text id="5" font-family="MesloLGS-NF-Regular, MesloLGS NF" font-size="58.0540719" font-weight="normal" letter-spacing="4.00372939" fill="#575757">
-                <tspan x="44.3751999" y="773.470738">5</tspan>
-            </text>
-            <path d="M3.86884807,191.271052 L631.041337,191.271052 C633.178829,191.271052 634.911609,189.538272 634.911609,187.40078 L634.911609,83.8976109 C634.911609,73.2101514 643.575506,64.5462536 654.262966,64.5462536 L918.86005,64.5462536 C929.54751,64.5462536 938.211407,73.2101514 938.211407,83.8976109 L938.211407,187.40078 C938.211407,189.538272 939.944187,191.271052 942.081679,191.271052 L1043.07283,191.271052 L1043.07283,191.271052 L3.86884807,191.271052 Z" id="Line" stroke="#787878" stroke-width="3.99165" stroke-linecap="square"></path>
-            <text id="scss" font-family="SFProText-Regular, SF Pro Text" font-size="50.3135289" font-weight="normal" letter-spacing="3.46989891" fill="#A6A6A6">
-                <tspan x="726.449561" y="143.529432">scss</tspan>
-            </text>
-            <text id=".main-btn-{-display:" font-family="MesloLGS-NF-Bold, MesloLGS NF" font-size="58.0540719" font-weight="bold" line-spacing="116.108144" letter-spacing="4.00372939">
-                <tspan x="184.330986" y="288.463992" fill="#E3E3E3">.</tspan>
-                <tspan x="223.286215" y="288.463992" fill="#E0C3AB">main-btn</tspan>
-                <tspan x="534.928044" y="288.463992" fill="#E3E3E3"> {</tspan>
-                <tspan x="184.330986" y="404.572136" fill="#E3E3E3">   display: </tspan>
-                <tspan x="651.79373" y="404.572136" fill="#DDBDF7">flex</tspan>
-                <tspan x="807.614645" y="404.572136" fill="#E3E3E3">;</tspan>
-                <tspan x="184.330986" y="520.680279" fill="#E3E3E3">   border: 2</tspan>
-                <tspan x="651.79373" y="520.680279" fill="#A6D3AE">px</tspan>
-                <tspan x="729.704188" y="520.680279" fill="#E3E3E3"> #fff</tspan>
-                <tspan x="184.330986" y="636.788423" fill="#E3E3E3">}</tspan>
-            </text>
-            <g id="Mac-OS-Windows-Control-Buttons" transform="translate(46.426177, 73.417171)">
-                <ellipse id="Oval" fill="#FF5F4B" cx="26.1147245" cy="26.0824162" rx="26.1147245" ry="26.0824162"></ellipse>
-                <ellipse id="Oval-Copy" fill="#FFBD02" cx="111.229382" cy="26.0824162" rx="26.1147245" ry="26.0824162"></ellipse>
-                <ellipse id="Oval-Copy-2" fill="#00D000" cx="196.34404" cy="26.0824162" rx="26.1147245" ry="26.0824162"></ellipse>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1047 824" style="enable-background:new 0 0 1047 824;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0B0B0B;stroke:#C2C2C2;stroke-width:3.9917;}
+	.st1{fill:#1F1F1F;}
+	.st2{fill:#575757;}
+	.st3{font-family:'MesloLGS-NF-Regular';}
+	.st4{font-size:58.0541px;}
+	.st5{letter-spacing:2;}
+	.st6{fill:none;stroke:#787878;stroke-width:3.9917;stroke-linecap:square;}
+	.st7{fill:#A6A6A6;}
+	.st8{font-family:'SFProText-Regular';}
+	.st9{font-size:50.3135px;}
+	.st10{fill:#E3E3E3;}
+	.st11{font-family:'MesloLGS-NF-Bold';}
+	.st12{fill:#E0C3AB;}
+	.st13{fill:#DDBDF7;}
+	.st14{fill:#A6D3AE;}
+	.st15{fill:#FF5F4B;}
+	.st16{fill:#FFBD02;}
+	.st17{fill:#00D000;}
+</style>
+<title>SCSS Widow</title>
+<g id="HOME">
+	<g id="SCSS-Widow" transform="translate(0.000000, 0.000000)">
+		<path id="Rectangle" class="st0" d="M33,2h981c17.1,0,31,13.9,31,31v757.1c0,17.1-13.9,31-31,31H33c-17.1,0-31-13.9-31-31V33
+			C2,15.9,15.9,2,33,2z"/>
+		<path id="Code-Count-Side-Bar" class="st1" d="M3.9,193.2h108.3v626.3c-25.7,0-43.1,0-52.4,0c-12.6,0-21.5,0-28.8,0l0,0
+			c-15,0-27.1-12.1-27.1-27.1L3.9,193.2L3.9,193.2z"/>
+		<text transform="matrix(1 0 0 1 44.3584 315.6643)" class="st2 st3 st4 st5">1</text>
+		<text transform="matrix(1 0 0 1 44.3752 425.8906)" class="st2 st3 st4 st5">2</text>
+		<text transform="matrix(1 0 0 1 44.3752 542.7304)" class="st2 st3 st4 st5">3</text>
+		<text transform="matrix(1 0 0 1 44.3752 658.8354)" class="st2 st3 st4 st5">4</text>
+		<text transform="matrix(1 0 0 1 44.3752 773.4708)" class="st2 st3 st4 st5">5</text>
+		<path id="Line" class="st6" d="M3.9,191.3H631c2.1,0,3.9-1.7,3.9-3.9V83.9c0-10.7,8.7-19.4,19.4-19.4h264.6
+			c10.7,0,19.4,8.7,19.4,19.4v103.5c0,2.1,1.7,3.9,3.9,3.9h101l0,0L3.9,191.3L3.9,191.3z"/>
+		<text transform="matrix(1 0 0 1 726.4496 143.5294)" class="st7 st8 st9 st5">scss</text>
+		<text transform="matrix(1 0 0 1 184.331 288.464)" class="st10 st11 st4 st5">.</text>
+		<text transform="matrix(1 0 0 1 223.2862 288.464)" class="st12 st11 st4 st5">main-btn</text>
+		<text transform="matrix(1 0 0 1 534.928 288.464)" class="st10 st11 st4 st5">{</text>
+		<text transform="matrix(1 0 0 1 184.331 404.5721)" class="st10 st11 st4 st5">display: </text>
+		<text transform="matrix(1 0 0 1 525.2014 404.5721)" class="st13 st11 st4 st5">flex</text>
+		<text transform="matrix(1 0 0 1 679.5507 404.5721)" class="st10 st11 st4 st5">;</text>
+		<text transform="matrix(1 0 0 1 794.2187 511.5721)" class="st10 st11 st4 st5">;</text>
+		<text transform="matrix(1 0 0 1 184.331 520.6803)" class="st10 st11 st4 st5">border: 2</text>
+		<text transform="matrix(1 0 0 1 512.0876 520.6803)" class="st14 st11 st4 st5">px</text>
+		<text transform="matrix(1 0 0 1 645.8691 520.6803)" class="st10 st11 st4 st5">#fff</text>
+		<text transform="matrix(1 0 0 1 184.331 636.7885)" class="st10 st11 st4 st5">}</text>
+		<g id="Mac-OS-Windows-Control-Buttons" transform="translate(46.426177, 73.417171)">
+			<ellipse id="Oval" class="st15" cx="26.1" cy="26.1" rx="26.1" ry="26.1"/>
+			<ellipse id="Oval-Copy" class="st16" cx="111.2" cy="26.1" rx="26.1" ry="26.1"/>
+			<ellipse id="Oval-Copy-2" class="st17" cx="196.3" cy="26.1" rx="26.1" ry="26.1"/>
+		</g>
+	</g>
+</g>
 </svg>

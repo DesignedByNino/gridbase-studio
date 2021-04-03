@@ -4,7 +4,7 @@
       <!-- Logo container -->
       <div class="logo-wrap">
         <g-link to="/" class="homepage-link">
-          <g-image class="logo" src="~/images/gridbase-default.svg" alt="" />
+          <img class="logo" src="../images/gridbase-default.svg" alt="" />
         </g-link>
       </div>
       <!-- Logo container end -->
@@ -12,32 +12,32 @@
       <!-- Language Switch Container -->
       <div class="lang-switch-wrap">
         <g-link to="/" class="homepage-link">
-          <g-image class="nav-switch" src="~/images/lang-switch.svg" alt="" />
+          <img class="nav-switch" src="../images/lang-switch.svg" alt="" />
           <!-- mobile simplified language switch -->
-          <g-image
-            src="~/images/lang-switch-simple.svg"
+          <img
+            src="../images/lang-switch-simple.svg"
             class="nav-switch-simple"
           />
         </g-link>
       </div>
       <!-- mobile menu nav -->
       <div class="mobile-menu-wrap">
-        <g-image src="~/images/burger-menu-classic.svg" class="menu-icon" />
+        <img src="../images/burger-menu-classic.svg" class="menu-icon" />
         <!-- open menu wrapper -->
         <div class="open-menu-warp closed-menu-wrap">
           <!-- menu links container -->
           <div class="menu-top-links">
             <g-link to="/" class="menu-link">services</g-link>
-            <g-link to="/about" class="menu-link">about</g-link>
-            <g-link to="/work" class="menu-link">work gallery</g-link>
+            <g-link to="/about/" class="menu-link">about</g-link>
+            <g-link to="/work/" class="menu-link">work gallery</g-link>
           </div>
           <!-- menu contact section -->
           <div class="menu-contact-section">
-            <g-image
-              src="~/images/gridbase-single.svg"
+            <img
+              src="../images/gridbase-single.svg"
               class="menu-contact-icon"
             />
-            <g-link to="/contact" class="menu-contact-link">Contact Us</g-link>
+            <g-link to="/contact/" class="menu-contact-link">Contact Us</g-link>
           </div>
           <!-- menu contact section end -->
         </div>
@@ -54,11 +54,7 @@
       <!-- Desktop Contact Nav Container -->
       <div class="contact-el-wrap">
         <g-link to="/contact/" class="contact-link">
-          <g-image
-            src="~/images/gridbase-single.svg"
-            alt=""
-            class="contact-btn"
-          />
+          <img src="../images/gridbase-single.svg" alt="" class="contact-btn" />
         </g-link>
       </div>
       <!-- Desktop Contact Nav Container end -->

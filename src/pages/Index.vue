@@ -20,7 +20,7 @@
           design, development, art direction and photography.
         </p>
         <!-- mobile CTA button -->
-        <g-link to="/" class="mobile-hero-btn">
+        <g-link to="/work/" class="mobile-hero-btn">
           <span class="mobile-btn-text">see our work</span>
           <g-image
             src="~/images/gird-custom-arrow.svg"
@@ -32,15 +32,14 @@
       <!-- mobile development end -->
       <div class="left-side">
         <g-image
-          src="~/images/down-right-arrow.svg"
-          alt=""
-          class="hero-arrow"
-        />
-        <g-image
-          class="main-img"
+          class="main-hero-img"
           src="~/images/Hero-Furniture-Optimized.jpg"
           alt=""
         />
+        <div class="window-wrapper">
+          <g-image src="~/images/window-js.svg" class="js-window-img" />
+          <g-image src="~/images/window-scss.svg" class="scss-window-img" />
+        </div>
       </div>
       <div class="right-side">
         <h1 class="main-heading">Together building better brands.</h1>
@@ -48,10 +47,10 @@
           Our goal is to make people understand each other better through
           design, development, art direction and photography.
         </p>
-        <div class="button-wrap">
+        <g-link to="/work/" class="button-wrap">
           <button class="hero-btn">see our work</button>
           <g-image class="btn-arrow" src="~/images/curved-arrow.svg" alt="" />
-        </div>
+        </g-link>
       </div>
     </div>
 
