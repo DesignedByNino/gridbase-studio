@@ -4,7 +4,11 @@
       <!-- Logo container -->
       <div class="logo-wrap">
         <g-link to="/" class="homepage-link">
-          <img class="logo" src="../images/gridbase-default.svg" alt="" />
+          <img
+            class="logo"
+            src="../images/gridbase-default.svg"
+            alt="logo image"
+          />
         </g-link>
       </div>
       <!-- Logo container end -->
@@ -12,17 +16,26 @@
       <!-- Language Switch Container -->
       <div class="lang-switch-wrap">
         <g-link to="/" class="homepage-link">
-          <img class="nav-switch" src="../images/lang-switch.svg" alt="" />
+          <img
+            class="nav-switch"
+            src="../images/lang-switch.svg"
+            alt="language switcher icon"
+          />
           <!-- mobile simplified language switch -->
           <img
             src="../images/lang-switch-simple.svg"
             class="nav-switch-simple"
+            alt="language switcher icon without circle"
           />
         </g-link>
       </div>
       <!-- mobile menu nav -->
       <div class="mobile-menu-wrap">
-        <img src="../images/burger-menu-classic.svg" class="menu-icon" />
+        <img
+          src="../images/burger-menu-classic.svg"
+          class="menu-icon"
+          alt="mobile menu icon"
+        />
         <!-- open menu wrapper -->
         <div class="open-menu-warp closed-menu-wrap">
           <!-- menu links container -->
@@ -36,6 +49,7 @@
             <img
               src="../images/gridbase-single.svg"
               class="menu-contact-icon"
+              alt="contact link icon logo"
             />
             <g-link to="/contact/" class="menu-contact-link">Contact Us</g-link>
           </div>
@@ -54,7 +68,11 @@
       <!-- Desktop Contact Nav Container -->
       <div class="contact-el-wrap">
         <g-link to="/contact/" class="contact-link">
-          <img src="../images/gridbase-single.svg" alt="" class="contact-btn" />
+          <img
+            src="../images/gridbase-single.svg"
+            alt="language switcher icon"
+            class="contact-btn"
+          />
         </g-link>
       </div>
       <!-- Desktop Contact Nav Container end -->

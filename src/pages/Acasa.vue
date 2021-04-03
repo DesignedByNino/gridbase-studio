@@ -2,7 +2,11 @@
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <div class="contact-indicator">
-      <img src="../images/next-bl.svg" class="home-contact-arrow" />
+      <img
+        src="../images/next-bl.svg"
+        class="home-contact-arrow"
+        alt="small arrow"
+      />
       <h5 class="home-contact-text">contact us</h5>
     </div>
     <!-- main hero wrapper -->
@@ -12,7 +16,11 @@
         <!-- top flex container -->
         <div class="flex-left">
           <h2 class="mobile-h2">Împreună construim firme mai capabile.</h2>
-          <img src="../images/hero-blur-round.png" class="mobile-hero-img" />
+          <img
+            src="../images/hero-blur-round.png"
+            class="mobile-hero-img"
+            alt="blur graphic"
+          />
         </div>
         <!-- top flex container end -->
         <p class="mobile-hero-p">
@@ -22,14 +30,21 @@
         <!-- mobile CTA button -->
         <g-link to="/" class="mobile-hero-btn">
           <span class="mobile-btn-text">galerie proiecte</span>
-          <img src="../images/gird-custom-arrow.svg" class="mobile-btn-arrow" />
+          <img
+            src="../images/gird-custom-arrow.svg"
+            class="mobile-btn-arrow"
+            alt="mobile button arrow"
+          />
         </g-link>
         <!-- mobile CTA button end -->
       </div>
       <!-- mobile development end -->
       <div class="left-side">
-        <img src="../images/down-right-arrow.svg" alt="" class="hero-arrow" />
-        <img class="main-img" src="../images/new-hero-img-asset.png" alt="" />
+        <img
+          class="main-img"
+          src="../images/new-hero-img-asset.png"
+          alt="web project screenshot"
+        />
       </div>
       <div class="right-side">
         <h1 class="main-heading">Împreună construim firme mai capabile.</h1>
@@ -37,10 +52,14 @@
           Lucrăm pentru a stabili o conexiune armonioasă între oameni și ideile
           lor, prin design, programare-web, direcție artistică și fotografie.
         </p>
-        <div class="button-wrap">
-          <button class="hero-btn">galerie proiecte</button>
-          <img class="btn-arrow" src="../images/curved-arrow.svg" alt="" />
-        </div>
+        <g-link to="/work/" class="button-wrap">
+          <span class="hero-btn">galerie proiecte</span>
+          <img
+            class="btn-arrow"
+            src="../images/curved-arrow.svg"
+            alt="button arrow"
+          />
+        </g-link>
       </div>
     </div>
 
@@ -50,7 +69,11 @@
         FIND YOUR IDEA
         <h3 class="ideas-h3">AND VOICE</h3>
       </h1>
-      <img src="../images/graphic-eight.svg" class="graphic-eight" />
+      <img
+        src="../images/graphic-eight.svg"
+        class="graphic-eight"
+        alt="eight graphic element"
+      />
       <p class="idea-one">
         We believe every story has right to be told on fare grounds. Design,
         development and visuals are just small gears in a constantly moving

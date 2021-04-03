@@ -4,6 +4,11 @@
       <!-- Footer top container -->
       <div class="foo-top-wrap">
         <h5 class="foo-top-adj">Uniqueness</h5>
+        <img
+          src="../images/footer-curved-text.svg"
+          alt="creating powerful brands together"
+          class="curved-text"
+        />
         <h1 class="foo-top-title">Creating powerful brands together</h1>
         <h5 class="foo-top-adj">Creativity</h5>
       </div>
@@ -18,19 +23,34 @@
         </div>
         <g-link to="/" class="foo-homepage-link">
           <!-- Logo Display -->
-          <img src="../images/gridbase-default.svg" class="foo-logo" />
+          <img
+            src="../images/gridbase-default.svg"
+            class="foo-logo"
+            alt="logo image"
+          />
           <!-- Homepage routing indicator -->
           <div class="flex-foo-home-indicator">
-            <img src="../images/next.svg" class="foo-indicator-arrow" />
+            <img
+              src="../images/next.svg"
+              class="foo-indicator-arrow"
+              alt="small link arrow"
+            />
             <h4 class="foo-indicator-text">BACK HOME</h4>
           </div>
         </g-link>
+        <!-- Graphic Eight Element -->
+        <img
+          src="../images/footer-shape.svg"
+          alt="graphic element eight footer"
+          class="footer-graphic"
+        />
         <!-- Public Business Info -->
-        <h2 class="foo-public-text">
-          © gridbase™ is a Trade Mark of<br />
-          ROSE NETWORK S.R.L.<br />
-          Str. Ascanio Damian nr. 16 SIBIU/ROMANIA
-        </h2>
+        <div class="business-info-wrap">
+          <h2 class="business-name">ROSE NETWORK SRL</h2>
+          <h2 class="business-address">Str. ASCANIO DAMIAN - NR.16</h2>
+          <h2 class="business-city">SIBIU | ROMANIA 😛</h2>
+        </div>
+        <h2 class="foo-public-text">© gridbase™ - 2021 | Trade Mark</h2>
       </div>
     </footer>
   </div>
@@ -86,7 +106,7 @@ body {
 }
 
 .main-footer {
-  // background-color: $dev-green;
+  z-index: 12;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,7 +122,6 @@ body {
     width: 100vw;
   }
   .foo-top-wrap {
-    // background-color: $dev-blue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -110,32 +129,46 @@ body {
     width: inherit;
     padding: 0 77px;
     border-bottom: 1px solid $nav-line;
+    .curved-text {
+      z-index: 13;
+      max-width: 710px;
+      position: relative;
+      top: -10px;
+    }
     .foo-top-title {
+      display: none;
       font-family: "Cormorant Garamond";
       font-weight: 300;
       font-style: italic;
       letter-spacing: -1px;
       font-size: 50px;
       position: relative;
-      top: -24px;
+      top: -45px;
+      z-index: inherit;
     }
     .foo-top-adj {
+      font-weight: 200;
+      z-index: 12;
       font-family: "Questrial", sans-serif;
       font-size: 17px;
     }
   }
   .flex-foo-body {
+    z-index: 12;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: inherit;
     padding: 65px 77px 0px;
     .foo-inline-features {
+      z-index: inherit;
       width: inherit;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       .foo-feature {
+        z-index: inherit;
         font-size: 21px;
         font-weight: 100;
         opacity: 50%;
@@ -143,6 +176,7 @@ body {
       }
     }
     .foo-homepage-link {
+      z-index: 14;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -155,8 +189,10 @@ body {
         margin-bottom: 53px;
         position: relative;
         right: 47px;
+        cursor: pointer;
       }
       .flex-foo-home-indicator {
+        z-index: 10;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -171,10 +207,31 @@ body {
         }
       }
     }
+    .footer-graphic {
+      top: -220px;
+      position: absolute;
+      z-index: 1;
+      min-width: 1440px;
+      max-width: 1440px;
+    }
     .foo-public-text {
-      margin-top: 85px;
+      font-size: 29px;
+      z-index: inherit;
+      margin-top: 200px;
       text-align: center;
       font-weight: 300;
+    }
+    .business-info-wrap {
+      z-index: 13;
+      .business-name {
+        display: none;
+      }
+      .business-address {
+        display: none;
+      }
+      .business-city {
+        display: none;
+      }
     }
   }
 }
@@ -184,20 +241,23 @@ body {
 // Global ViewPort Changes
 @media screen and (min-width: $mob-exslim) and (max-width: 1020px) {
   .main-footer {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     max-width: 100vw;
-    padding: 0;
+    padding: 35px 0 0 0;
+    position: relative;
+
     .flex-foo-cont {
       max-width: 100vw;
       padding: 0 17px;
       .foo-top-wrap {
         max-width: 100vw;
         width: 100%;
-        background-color: $dev-orange;
         padding: 0;
+        border: 0;
         .foo-top-title {
           font-size: 22px;
           text-align: center;
@@ -221,13 +281,34 @@ body {
             letter-spacing: 1.5px;
           }
         }
+        .footer-graphic {
+          top: -110px;
+          max-width: 870px;
+          min-width: 870px;
+          width: 870px;
+        }
         .foo-homepage-link {
+          padding-top: 30px;
           .foo-logo {
             margin-top: 35px;
-            min-width: 300px;
+            min-width: 280px;
+            max-width: 280px;
+            width: 280px;
             margin-bottom: 19px;
             position: relative;
             right: 0px;
+          }
+        }
+        .flex-foo-home-indicator {
+          padding-bottom: 35px;
+          .foo-indicator-arrow {
+            position: relative;
+            top: 17px;
+          }
+          .foo-indicator-text {
+            text-transform: lowercase;
+            position: relative;
+            top: 10px;
           }
         }
         .foo-public-text {
@@ -237,6 +318,45 @@ body {
           font-size: 20px;
           padding-bottom: 10px;
         }
+        .business-info-wrap {
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          .business-name {
+            display: block;
+            padding: 0;
+            margin: 0;
+            font-weight: 200;
+            // font-size: 16px;
+          }
+          .business-address {
+            display: block;
+            padding: 0;
+            margin: 0;
+            font-weight: 200;
+            // font-size: 18px;
+          }
+          .business-city {
+            display: block;
+            padding: 0;
+            margin: 0;
+            font-weight: 200;
+            // font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mob-plus) {
+  .main-footer {
+    .foo-top-wrap {
+      .curved-text {
+        top: 5.3px;
       }
     }
   }
