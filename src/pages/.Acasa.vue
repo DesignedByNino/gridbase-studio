@@ -2,7 +2,7 @@
   <Layout>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <div class="contact-indicator">
-      <g-image src="~/images/next.svg" class="home-contact-arrow" />
+      <g-image src="~/images/next-bl.svg" class="home-contact-arrow" />
       <h5 class="home-contact-text">contact us</h5>
     </div>
     <!-- main hero wrapper -->
@@ -11,17 +11,17 @@
       <div class="mobile-title">
         <!-- top flex container -->
         <div class="flex-left">
-          <h2 class="mobile-h2">Together building better brands.</h2>
+          <h2 class="mobile-h2">Împreună construim firme mai capabile.</h2>
           <g-image src="~/images/hero-blur-round.png" class="mobile-hero-img" />
         </div>
         <!-- top flex container end -->
         <p class="mobile-hero-p">
-          Our goal is to make people understand each other better through
-          design, development, art direction and photography.
+          Lucrăm pentru a stabili o conexiune armonioasă între oameni și ideile
+          lor, prin design, programare-web, direcție artistică și fotografie.
         </p>
         <!-- mobile CTA button -->
         <g-link to="/" class="mobile-hero-btn">
-          <span class="mobile-btn-text">see our work</span>
+          <span class="mobile-btn-text">galerie proiecte</span>
           <g-image
             src="~/images/gird-custom-arrow.svg"
             class="mobile-btn-arrow"
@@ -38,18 +38,18 @@
         />
         <g-image
           class="main-img"
-          src="~/images/Hero-Furniture-Optimized.jpg"
+          src="~/images/new-hero-img-asset.png"
           alt=""
         />
       </div>
       <div class="right-side">
-        <h1 class="main-heading">Together building better brands.</h1>
+        <h1 class="main-heading">Împreună construim firme mai capabile.</h1>
         <p class="hero-descrip">
-          Our goal is to make people understand each other better through
-          design, development, art direction and photography.
+          Lucrăm pentru a stabili o conexiune armonioasă între oameni și ideile
+          lor, prin design, programare-web, direcție artistică și fotografie.
         </p>
         <div class="button-wrap">
-          <button class="hero-btn">see our work</button>
+          <button class="hero-btn">galerie proiecte</button>
           <g-image class="btn-arrow" src="~/images/curved-arrow.svg" alt="" />
         </div>
       </div>
@@ -79,13 +79,13 @@
 
 <script>
 export default {
-  name: "Homepage",
+  name: "Homepage-Ro",
   // components: {
   //   Footer,
   // },
   metaInfo() {
     return {
-      title: "gridbase studio® | Home",
+      title: "gridbase studio® | Acasă",
     };
   },
 };

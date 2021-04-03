@@ -13,14 +13,13 @@
       <div class="lang-switch-wrap">
         <g-link to="/" class="homepage-link">
           <g-image class="nav-switch" src="~/images/lang-switch.svg" alt="" />
+          <!-- mobile simplified language switch -->
           <g-image
             src="~/images/lang-switch-simple.svg"
             class="nav-switch-simple"
           />
         </g-link>
       </div>
-      <!-- Language Switch Container end -->
-      <!--  -->
       <!-- mobile menu nav -->
       <div class="mobile-menu-wrap">
         <g-image src="~/images/burger-menu-classic.svg" class="menu-icon" />
@@ -32,8 +31,6 @@
             <g-link to="/about" class="menu-link">about</g-link>
             <g-link to="/work" class="menu-link">work gallery</g-link>
           </div>
-          <!-- menu links container end -->
-          <!--  -->
           <!-- menu contact section -->
           <div class="menu-contact-section">
             <g-image
@@ -46,19 +43,14 @@
         </div>
         <!-- open menu wrapper end -->
       </div>
-      <!-- mobile menu nav end -->
-      <!--  -->
       <!-- Link One Container -->
       <div class="link-one-wrap">
         <a class="services-link" href="#anchor">services</a>
       </div>
-      <!-- link One Container end -->
       <!-- Link Two Container -->
       <div class="link-two-wrap">
         <g-link class="about-link" to="/about/">about</g-link>
       </div>
-      <!-- Link Two Container end -->
-      <!--  -->
       <!-- Desktop Contact Nav Container -->
       <div class="contact-el-wrap">
         <g-link to="/contact/" class="contact-link">
