@@ -47,8 +47,8 @@
         <!-- Public Business Info -->
         <div class="business-info-wrap">
           <h2 class="business-name">ROSE NETWORK SRL</h2>
-          <h2 class="business-address">Str. ASCANIO DAMIAN - NR.16</h2>
-          <h2 class="business-city">SIBIU | ROMANIA 😛</h2>
+          <h2 class="business-address">TAX ID | CIF : 41637338</h2>
+          <h2 class="business-city">SIBIU | ROMANIA</h2>
         </div>
         <h2 class="foo-public-text">© gridbase™ - 2021 | Trade Mark</h2>
       </div>
@@ -120,123 +120,123 @@ body {
     align-items: center;
     justify-items: center;
     width: 100vw;
-  }
-  .foo-top-wrap {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: inherit;
-    padding: 0 77px;
-    border-bottom: 1px solid $nav-line;
-    .curved-text {
-      z-index: 13;
-      max-width: 710px;
-      position: relative;
-      top: -10px;
-    }
-    .foo-top-title {
-      display: none;
-      font-family: "Cormorant Garamond";
-      font-weight: 300;
-      font-style: italic;
-      letter-spacing: -1px;
-      font-size: 50px;
-      position: relative;
-      top: -45px;
-      z-index: inherit;
-    }
-    .foo-top-adj {
-      font-weight: 200;
-      z-index: 12;
-      font-family: "Questrial", sans-serif;
-      font-size: 17px;
-    }
-  }
-  .flex-foo-body {
-    z-index: 12;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: inherit;
-    padding: 65px 77px 0px;
-    .foo-inline-features {
-      z-index: inherit;
-      width: inherit;
+    .foo-top-wrap {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      .foo-feature {
+      justify-content: space-between;
+      align-items: center;
+      width: inherit;
+      padding: 0 77px;
+      border-bottom: 1px solid $nav-line;
+      .curved-text {
+        z-index: 13;
+        max-width: 710px;
+        position: relative;
+        top: -10px;
+      }
+      .foo-top-title {
+        display: none;
+        font-family: "Cormorant Garamond";
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: -1px;
+        font-size: 50px;
+        position: relative;
+        top: -45px;
         z-index: inherit;
-        font-size: 21px;
-        font-weight: 100;
-        opacity: 50%;
-        letter-spacing: 1.7px;
+      }
+      .foo-top-adj {
+        font-weight: 200;
+        z-index: 12;
+        font-family: "Questrial", sans-serif;
+        font-size: 17px;
       }
     }
-    .foo-homepage-link {
-      z-index: 14;
+    .flex-foo-body {
+      z-index: 12;
+      position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-decoration: none;
-      .foo-logo {
-        margin-top: 180px;
-        min-width: 607px;
-        max-width: 607px;
-        width: 607px;
-        margin-bottom: 53px;
-        position: relative;
-        right: 47px;
-        cursor: pointer;
+      width: inherit;
+      padding: 65px 77px 0px;
+      .foo-inline-features {
+        z-index: inherit;
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .foo-feature {
+          z-index: inherit;
+          font-size: 21px;
+          font-weight: 100;
+          color: #6d6d6d;
+          letter-spacing: 1.7px;
+        }
       }
-      .flex-foo-home-indicator {
-        z-index: 10;
+      .foo-homepage-link {
+        z-index: 14;
         display: flex;
         flex-direction: column;
         align-items: center;
-        .foo-indicator-arrow {
-          max-width: 30px;
+        text-decoration: none;
+        .foo-logo {
+          margin-top: 180px;
+          min-width: 607px;
+          max-width: 607px;
+          width: 607px;
+          margin-bottom: 53px;
+          position: relative;
+          right: 47px;
+          cursor: pointer;
         }
-        .foo-indicator-text {
-          text-align: center;
-          font-size: 22px;
-          text-decoration: none;
-          color: $grid-black;
+        .flex-foo-home-indicator {
+          z-index: 10;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .foo-indicator-arrow {
+            max-width: 30px;
+          }
+          .foo-indicator-text {
+            text-align: center;
+            font-size: 22px;
+            text-decoration: none;
+            color: $grid-black;
+          }
         }
       }
-    }
-    .footer-graphic {
-      top: -220px;
-      position: absolute;
-      z-index: 1;
-      min-width: 1440px;
-      max-width: 1440px;
-    }
-    .foo-public-text {
-      font-size: 29px;
-      z-index: inherit;
-      margin-top: 200px;
-      text-align: center;
-      font-weight: 300;
-    }
-    .business-info-wrap {
-      z-index: 13;
-      .business-name {
-        display: none;
+      .footer-graphic {
+        top: -220px;
+        position: absolute;
+        z-index: 1;
+        min-width: 1440px;
+        max-width: 1440px;
       }
-      .business-address {
-        display: none;
+      .foo-public-text {
+        font-size: 29px;
+        z-index: inherit;
+        margin-top: 200px;
+        text-align: center;
+        font-weight: 300;
       }
-      .business-city {
-        display: none;
+      .business-info-wrap {
+        z-index: 13;
+        .business-name {
+          display: none;
+        }
+        .business-address {
+          display: none;
+        }
+        .business-city {
+          display: none;
+        }
       }
     }
   }
 }
 
-// Responsive Mobile design
+// Responsive Mobile design || Responsive Mobile design || Responsive Mobile design || Responsive Mobile design ||
 
 // Global ViewPort Changes
 @media screen and (min-width: $mob-exslim) and (max-width: 1020px) {
@@ -249,15 +249,20 @@ body {
     max-width: 100vw;
     padding: 35px 0 0 0;
     position: relative;
-
     .flex-foo-cont {
+      // background-color: $dev-teal;
       max-width: 100vw;
       padding: 0 17px;
       .foo-top-wrap {
+        justify-content: center;
+        // background-color: $dev-teal;
         max-width: 100vw;
         width: 100%;
         padding: 0;
         border: 0;
+        .curved-text {
+          justify-self: center;
+        }
         .foo-top-title {
           font-size: 22px;
           text-align: center;
@@ -330,21 +335,21 @@ body {
             padding: 0;
             margin: 0;
             font-weight: 200;
-            // font-size: 16px;
+            // font-size: 19px;
           }
           .business-address {
             display: block;
             padding: 0;
             margin: 0;
             font-weight: 200;
-            // font-size: 18px;
+            // font-size: 19px;
           }
           .business-city {
             display: block;
             padding: 0;
             margin: 0;
             font-weight: 200;
-            // font-size: 18px;
+            // font-size: 19px;
           }
         }
       }
