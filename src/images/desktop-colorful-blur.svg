@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1363px" height="825px" viewBox="0 0 1363 825" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Colorful Blur</title>
+    <defs>
+        <radialGradient cx="43.1296331%" cy="57.9533949%" fx="43.1296331%" fy="57.9533949%" r="104.979462%" gradientTransform="translate(0.431296,0.579534),scale(0.483495,1.000000),rotate(-170.091772),translate(-0.431296,-0.579534)" id="radialGradient-1">
+            <stop stop-color="#620EA0" stop-opacity="0.451643083" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.393288352" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-38.7%" y="-80.0%" width="177.3%" height="260.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="66.3904377" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="43.1296331%" cy="57.9533949%" fx="43.1296331%" fy="57.9533949%" r="104.979462%" gradientTransform="translate(0.431296,0.579534),scale(0.483495,1.000000),rotate(-170.091772),translate(-0.431296,-0.579534)" id="radialGradient-3">
+            <stop stop-color="#0EA033" stop-opacity="0.451643083" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.393288352" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-38.7%" y="-80.0%" width="177.3%" height="260.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="66.3904377" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="100%" y1="38.3116222%" x2="0%" y2="61.6883778%" id="linearGradient-5">
+            <stop stop-color="#32C5FF" offset="0%"></stop>
+            <stop stop-color="#B620E0" offset="51.2583893%"></stop>
+            <stop stop-color="#F7B500" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-38.7%" y="-80.0%" width="177.3%" height="260.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="66.3904377" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Contact-Form" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-" transform="translate(-48.000000, -120.000000)">
+            <g id="Background-Blur-Elements-Copy" transform="translate(248.000000, 133.000000)">
+                <g id="Colorful-Blur" transform="translate(0.000000, 187.000000)">
+                    <rect id="Rectangle-Copy-2" fill="url(#radialGradient-1)" filter="url(#filter-2)" x="0" y="176" width="515" height="249"></rect>
+                    <rect id="Rectangle-Copy-3" fill="url(#radialGradient-3)" filter="url(#filter-4)" x="448" y="0" width="515" height="249"></rect>
+                    <rect id="Rectangle-Copy-4" fill="url(#linearGradient-5)" filter="url(#filter-6)" x="0" y="0" width="515" height="249"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

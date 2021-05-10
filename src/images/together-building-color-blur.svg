@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="304px" height="210px" viewBox="0 0 304 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>'together' word highlight</title>
+    <defs>
+        <radialGradient cx="43.1296331%" cy="57.9533949%" fx="43.1296331%" fy="57.9533949%" r="104.82896%" gradientTransform="translate(0.431296,0.579534),scale(0.484211,1.000000),rotate(-170.077403),translate(-0.431296,-0.579534)" id="radialGradient-1">
+            <stop stop-color="#190EA0" stop-opacity="0.591630415" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.393288352" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-38.7%" y="-79.9%" width="177.4%" height="259.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="24.4983165" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Contact-Form" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-" transform="translate(-1075.000000, -169.000000)" fill="url(#radialGradient-1)">
+            <g id="Background-Blur-Elements-Copy" transform="translate(248.000000, 133.000000)">
+                <rect id="'together'-word-highlight" filter="url(#filter-2)" x="884" y="95" width="190" height="92"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

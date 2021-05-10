@@ -101,6 +101,7 @@ export default {
 // color variables
 $grid-black: #0b0b0b;
 $grid-brown: #2c1608;
+$grid-gray: #888889;
 $nav-line: #979797;
 $dev-green: #b8e1cc;
 $dev-blue: #0a437a;
@@ -127,9 +128,9 @@ $tab-xlarge: 1366px;
   flex-direction: row;
   position: fixed;
   top: -0.1px;
-  min-width: 100%;
-  max-width: 100%;
-  width: 100%;
+  min-width: 100vw;
+  max-width: 100vw;
+  width: 100vw;
   min-height: 53px;
   max-height: 53px;
   height: 53px;
