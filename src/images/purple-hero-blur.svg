@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="468px" height="401px" viewBox="0 0 468 401" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <defs>
+        <filter x="-47.9%" y="-68.9%" width="195.9%" height="237.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="42.5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="purple-hero-blur" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-Exportable" transform="translate(0.000000, -59.000000)" fill="#8B4B84">
+            <g id="MOBILE-hero-content-image" transform="translate(94.000000, 146.500000)">
+                <rect id="Rectangle" filter="url(#filter-1)" x="0" y="20.5" width="266" height="185"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

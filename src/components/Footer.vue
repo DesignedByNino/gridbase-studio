@@ -8,6 +8,10 @@
         <span class="top-left-span">uniqueness</span>
         <span class="top-right-span">creativity</span>
       </div>
+      <div class="qualities-box mobile-disabled">
+        <span class="top-left-span">boldness</span>
+        <span class="top-right-span">precision</span>
+      </div>
       <div class="middle-link-box">
         <g-link class="footer-index-link" to="/">
           <g-image
@@ -25,7 +29,7 @@
           </div>
         </g-link>
       </div>
-      <div class="qualities-box">
+      <div class="qualities-box desktop-disabled">
         <span class="top-left-span">boldness</span>
         <span class="top-right-span">precision</span>
       </div>
@@ -300,6 +304,196 @@ body {
     .legal-link {
       color: #fff;
       text-decoration: none;
+    }
+  }
+}
+
+// Desktop media queries
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
+  .main-footer {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    .top-statement-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 75px;
+      border-bottom: 1px solid $nav-line;
+      .footer-brand-statement {
+        text-align: center;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 2.6em;
+        font-family: "Cormorant Garamond";
+        letter-spacing: -0.84;
+      }
+    }
+    .home-link-and-qualities {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      padding: 0 19px 25px 19px;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid $nav-line;
+      .qualities-box {
+        max-width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .desktop-disabled {
+        display: none;
+      }
+      .middle-link-box {
+        position: relative;
+        margin-top: 85px;
+        text-decoration: none;
+        min-height: 175px;
+        max-width: inherit;
+        .footer-index-link {
+          position: relative;
+          text-decoration: none;
+          max-width: inherit;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .footer-logo-image {
+            max-width: 70vw;
+          }
+          .back-home-link-text-and-arrow {
+            position: relative;
+            left: 8.5px;
+            margin-top: 20px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            max-width: 100vw;
+            .small-link-arrow {
+              max-width: 4%;
+            }
+            .small-link-text {
+              color: $grid-black;
+              margin: 10px 0 0 0;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+    .design-development-credits {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 55px;
+      border-bottom: 1px solid $nav-line;
+      .credits-title {
+        text-align: center;
+        max-width: 70vw;
+      }
+      .credits-paragraph {
+        font-family: "Questrial";
+        font-size: 1em;
+        text-align: center;
+        .cormorand-italic {
+          font-family: "Cormorant Garamond";
+          font-style: italic;
+          font-size: 1.38em;
+        }
+      }
+      .footer-arrow-link {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: $grid-black;
+        .footer-link-text {
+          font-size: 1.4em;
+        }
+      }
+    }
+    .general-enquiries {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 120px;
+      padding-bottom: 30px;
+      .enquries-title {
+        max-width: 70vw;
+        text-align: center;
+      }
+      .footer-arrow-link {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: $grid-black;
+        .footer-link-text {
+          font-size: 1.4em;
+        }
+      }
+      .direct-option-text {
+        font-size: 1em;
+        margin-top: 55px;
+        margin-bottom: 20px;
+      }
+      .direct-email-options {
+        font-size: 1em;
+        text-align: center;
+      }
+    }
+    .gradient-footer-end {
+      max-width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 202px;
+      padding: 0 19px 22px 19px;
+      background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(186, 186, 186, 0.2) 17%,
+        rgba(118, 118, 118, 0.42) 39%,
+        rgba(83, 83, 83, 0.67) 59%,
+        rgba(70, 70, 70, 0.75) 66%,
+        rgba(54, 54, 54, 0.82) 76%,
+        #1a1a1a 100%
+      );
+      .copyright {
+        font-size: 1.3em;
+        text-decoration: none;
+        position: relative;
+        top: 52px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+      .legal-link-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .legal-link {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+//Mobile Media Queries
+@media screen and (min-width: 320px) and (max-width: 445px) {
+  .main-footer {
+    .home-link-and-qualities {
+      .qualities-box {
+      }
+      .mobile-disabled {
+        display: none;
+      }
     }
   }
 }
