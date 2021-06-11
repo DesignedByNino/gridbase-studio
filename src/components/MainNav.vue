@@ -6,76 +6,83 @@
         <g-link to="/" class="homepage-link">
           <img
             class="logo"
-            src="../images/gridbase-default.svg"
+            src="../images/gridbase-default-s.svg"
             alt="logo image"
           />
         </g-link>
       </div>
       <!-- Logo container end -->
       <div class="middle-space"></div>
-      <!-- Language Switch Container -->
-      <div class="lang-switch-wrap">
-        <g-link to="/" class="homepage-link">
+      <!-- Right Side Flex Container -->
+      <div class="nav-flex-right">
+        <!-- Language Switch Container -->
+        <div class="lang-switch-wrap">
+          <g-link to="/" class="homepage-link">
+            <img
+              class="nav-switch"
+              src="../images/lang-switch.svg"
+              alt="language switcher icon"
+            />
+            <!-- mobile simplified language switch -->
+            <img
+              src="../images/lang-switch-simple.svg"
+              class="nav-switch-simple"
+              alt="language switcher icon without circle"
+            />
+          </g-link>
+        </div>
+        <!-- mobile menu nav -->
+        <div class="mobile-menu-wrap">
           <img
-            class="nav-switch"
-            src="../images/lang-switch.svg"
-            alt="language switcher icon"
+            src="../images/burger-menu-classic.svg"
+            class="menu-icon"
+            alt="mobile menu icon"
           />
-          <!-- mobile simplified language switch -->
-          <img
-            src="../images/lang-switch-simple.svg"
-            class="nav-switch-simple"
-            alt="language switcher icon without circle"
-          />
-        </g-link>
-      </div>
-      <!-- mobile menu nav -->
-      <div class="mobile-menu-wrap">
-        <img
-          src="../images/burger-menu-classic.svg"
-          class="menu-icon"
-          alt="mobile menu icon"
-        />
-        <!-- open menu wrapper -->
-        <div class="open-menu-warp closed-menu-wrap">
-          <!-- menu links container -->
-          <div class="menu-top-links">
-            <g-link to="/" class="menu-link">services</g-link>
-            <g-link to="/about/" class="menu-link">about</g-link>
-            <g-link to="/work/" class="menu-link">work gallery</g-link>
+          <!-- open menu wrapper -->
+          <div class="open-menu-warp closed-menu-wrap">
+            <!-- menu links container -->
+            <div class="menu-top-links">
+              <g-link to="/" class="menu-link">services</g-link>
+              <g-link to="/about/" class="menu-link">about</g-link>
+              <g-link to="/work/" class="menu-link">work gallery</g-link>
+            </div>
+            <!-- menu contact section -->
+            <div class="menu-contact-section">
+              <img
+                src="../images/gridbase-single.svg"
+                class="menu-contact-icon"
+                alt="contact link icon logo"
+              />
+              <g-link to="/contact/" class="menu-contact-link"
+                >Contact Us</g-link
+              >
+            </div>
+            <!-- menu contact section end -->
           </div>
-          <!-- menu contact section -->
-          <div class="menu-contact-section">
+          <!-- open menu wrapper end -->
+        </div>
+        <!-- mobile menu ends here -->
+        <!-- Link One Container -->
+        <div class="link-one-wrap">
+          <a class="services-link" href="#anchor">services</a>
+        </div>
+        <!-- Link Two Container -->
+        <div class="link-two-wrap">
+          <g-link class="about-link" to="/about/">about</g-link>
+        </div>
+        <!-- Desktop Contact Nav Container -->
+        <div class="contact-el-wrap">
+          <g-link to="/contact/" class="contact-link">
             <img
               src="../images/gridbase-single.svg"
-              class="menu-contact-icon"
-              alt="contact link icon logo"
+              alt="language switcher icon"
+              class="contact-btn"
             />
-            <g-link to="/contact/" class="menu-contact-link">Contact Us</g-link>
-          </div>
-          <!-- menu contact section end -->
+          </g-link>
         </div>
-        <!-- open menu wrapper end -->
+        <!-- Desktop Contact Nav Container end -->
       </div>
-      <!-- Link One Container -->
-      <div class="link-one-wrap">
-        <a class="services-link" href="#anchor">services</a>
-      </div>
-      <!-- Link Two Container -->
-      <div class="link-two-wrap">
-        <g-link class="about-link" to="/about/">about</g-link>
-      </div>
-      <!-- Desktop Contact Nav Container -->
-      <div class="contact-el-wrap">
-        <g-link to="/contact/" class="contact-link">
-          <img
-            src="../images/gridbase-single.svg"
-            alt="language switcher icon"
-            class="contact-btn"
-          />
-        </g-link>
-      </div>
-      <!-- Desktop Contact Nav Container end -->
+      <!-- Right Side Flex Container End -->
     </div>
     <!-- Main Nav Flex Wrapper End -->
   </div>
@@ -126,6 +133,7 @@ $tab-xlarge: 1366px;
   z-index: 99;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   position: fixed;
   top: -0.1px;
   min-width: 100vw;
@@ -135,146 +143,142 @@ $tab-xlarge: 1366px;
   max-height: 53px;
   height: 53px;
   background-color: #fff;
-}
-.logo-wrap {
-  min-height: 53px;
-  max-height: 53px;
-  height: 53px;
-  // border: 1px solid #979797;
-  border-top: 0;
-  border-right: 1px solid $nav-line;
   border-bottom: 1px solid $nav-line;
-  border-left: 0;
-  min-width: 241.5px;
-  width: 241.5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .logo {
-    position: relative;
-    top: 1px;
-    min-width: 127px;
-    max-width: 127px;
-    width: 127px;
+  .logo-wrap {
+    min-height: 53px;
+    max-height: 53px;
+    height: 53px;
+    // border: 1px solid #979797;
+    border-top: 0;
+    border-right: 1px solid $nav-line;
+    border-bottom: 1px solid $nav-line;
+    border-left: 0;
+    min-width: 241.5px;
+    width: 241.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      position: relative;
+      top: 1px;
+      min-width: 127px;
+      max-width: 127px;
+      width: 127px;
+    }
   }
-}
-.middle-space {
-  min-height: 53px;
-  max-height: 53px;
-  height: 53px;
-  min-width: 732px;
-  max-width: 732px;
-  width: 732px;
-  border-top: 0;
-  border-right: 1px solid $nav-line;
-  border-bottom: 1px solid $nav-line;
-  border-left: 0;
-}
-.lang-switch-wrap {
-  min-height: 53px;
-  max-height: 53px;
-  height: 53px;
-  min-width: 59px;
-  max-width: 59px;
-  width: 59px;
-  border-top: 0;
-  border-right: 1px solid $nav-line;
-  border-bottom: 1px solid $nav-line;
-  border-left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .nav-switch {
-    position: relative;
-    top: 2px;
-    min-width: 29px;
-    max-width: 29px;
-    width: 29px;
-    min-height: 29px;
-    max-height: 29px;
-    height: 29px;
+  .nav-flex-right {
+    max-width: 100%;
+    min-width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .lang-switch-wrap {
+      min-height: 53px;
+      max-height: 53px;
+      height: 53px;
+      min-width: 59px;
+      max-width: 59px;
+      width: 59px;
+      border-top: 0;
+      border-right: 1px solid $nav-line;
+      border-bottom: 1px solid $nav-line;
+      border-left: 1px solid $nav-line;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .nav-switch {
+        position: relative;
+        top: 2px;
+        min-width: 29px;
+        max-width: 29px;
+        width: 29px;
+        min-height: 29px;
+        max-height: 29px;
+        height: 29px;
+      }
+      .nav-switch-simple {
+        display: none;
+      }
+    }
+    .link-one-wrap {
+      min-width: 136px;
+      max-width: 136px;
+      width: 136px;
+      min-height: 53px;
+      max-height: 53px;
+      height: 53px;
+      border-top: 0;
+      border-right: 1px solid $nav-line;
+      border-bottom: 1px solid $nav-line;
+      border-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .services-link {
+        text-decoration: none;
+        color: inherit;
+        font-size: 19px;
+        font-weight: 300;
+      }
+    }
+    .link-two-wrap {
+      min-height: 53px;
+      max-height: 53px;
+      height: 53px;
+      min-width: 134px;
+      max-width: 134px;
+      width: 134px;
+      border-top: 0;
+      border-right: 1px solid $nav-line;
+      border-bottom: 1px solid $nav-line;
+      border-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .about-link {
+        text-decoration: none;
+        color: inherit;
+        font-size: 19px;
+        font-weight: 200;
+      }
+    }
+    .contact-el-wrap {
+      min-height: 53px;
+      max-height: 53px;
+      height: 53px;
+      min-width: 136px;
+      max-width: 136px;
+      width: 136px;
+      border-top: 0;
+      border-bottom: 1px solid $nav-line;
+      border-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .contact-btn {
+        min-width: 32px;
+        max-width: 32px;
+        width: 32px;
+        position: relative;
+        left: 0.3px;
+        top: 0.2px;
+      }
+      // .contact-link {
+      //   text-decoration: none;
+      //   color: inherit;
+      //   font-size: 19px;
+      //   font-weight: 200;
+      // }
+    }
+    .mobile-menu-wrap {
+      display: none;
+    }
   }
-  .nav-switch-simple {
-    display: none;
-  }
-}
-.link-one-wrap {
-  min-width: 136px;
-  max-width: 136px;
-  width: 136px;
-  min-height: 53px;
-  max-height: 53px;
-  height: 53px;
-  border-top: 0;
-  border-right: 1px solid $nav-line;
-  border-bottom: 1px solid $nav-line;
-  border-left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .services-link {
-    text-decoration: none;
-    color: inherit;
-    font-size: 19px;
-    font-weight: 300;
-  }
-}
-.link-two-wrap {
-  min-height: 53px;
-  max-height: 53px;
-  height: 53px;
-  min-width: 134px;
-  max-width: 134px;
-  width: 134px;
-  border-top: 0;
-  border-right: 1px solid $nav-line;
-  border-bottom: 1px solid $nav-line;
-  border-left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .about-link {
-    text-decoration: none;
-    color: inherit;
-    font-size: 19px;
-    font-weight: 200;
-  }
-}
-.contact-el-wrap {
-  min-height: 53px;
-  max-height: 53px;
-  height: 53px;
-  min-width: 136px;
-  max-width: 136px;
-  width: 136px;
-  border-top: 0;
-  border-bottom: 1px solid $nav-line;
-  border-left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  .contact-btn {
-    min-width: 32px;
-    max-width: 32px;
-    width: 32px;
-    position: relative;
-    left: 0.3px;
-    top: 0.2px;
-  }
-  // .contact-link {
-  //   text-decoration: none;
-  //   color: inherit;
-  //   font-size: 19px;
-  //   font-weight: 200;
-  // }
-}
-.mobile-menu-wrap {
-  display: none;
 }
 
 // Mobile Responsive Design
@@ -291,7 +295,6 @@ $tab-xlarge: 1366px;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      // background-color: $dev-green;
       position: fixed;
       top: -0.1px;
       min-width: 100vw;
@@ -300,11 +303,10 @@ $tab-xlarge: 1366px;
       // min-height: 50px;
       // max-height: 50px;
       // height: 50px;
-      padding: 0 24px 0 12px;
+      padding: 0 23% 0 12px;
       margin: 0;
       border-bottom: 1px solid $nav-line;
       .logo-wrap {
-        // background-color: $dev-orange;
         min-height: 50px;
         max-height: 50px;
         height: 50px;
@@ -315,13 +317,15 @@ $tab-xlarge: 1366px;
         min-width: 141.5px;
         width: 141.5px;
         .logo {
-          // background-color: $dev-teal;
           position: relative;
           top: 1.5px;
           min-width: 127px;
           max-width: 127px;
           width: 127px;
         }
+      }
+      .nav-flex-right {
+        padding-right: 0;
       }
       .middle-space {
         display: none;
@@ -341,6 +345,7 @@ $tab-xlarge: 1366px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-right: 8px;
         .nav-switch {
           display: none;
         }
@@ -397,7 +402,6 @@ $tab-xlarge: 1366px;
         }
       }
       .contact-el-wrap {
-        background-color: $dev-teal;
         display: none;
         min-height: 0px;
         max-height: 0px;
@@ -409,14 +413,12 @@ $tab-xlarge: 1366px;
         border-bottom: 0;
         border-left: 0;
         .contact-link {
-          background-color: $dev-orange;
           display: none;
           text-decoration: none;
           color: inherit;
           font-size: 19px;
           font-weight: 200;
           .contact-btn {
-            background-color: $dev-blue;
             display: none;
             min-width: 0px;
             max-width: 0px;

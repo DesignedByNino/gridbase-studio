@@ -7,10 +7,8 @@
       <div class="qualities-box">
         <span class="top-left-span">uniqueness</span>
         <span class="top-right-span">creativity</span>
-      </div>
-      <div class="qualities-box mobile-disabled">
-        <span class="top-left-span">boldness</span>
-        <span class="top-right-span">precision</span>
+        <span class="top-left-span mobile-disabled">boldness</span>
+        <span class="top-right-span mobile-disabled">precision</span>
       </div>
       <div class="middle-link-box">
         <g-link class="footer-index-link" to="/">
@@ -34,7 +32,7 @@
         <span class="top-right-span">precision</span>
       </div>
     </div>
-    <div class="design-development-credits">
+    <div class="design-development-credits desktop-disabled">
       <h2 class="credits-title">Design & Development Credits</h2>
       <p class="credits-paragraph">
         Visual narrative & design concepts<br />
@@ -58,8 +56,8 @@
         />
       </g-link>
     </div>
-    <div class="general-enquiries">
-      <h2 class="enquries-title">
+    <div class="general-enquiries desktop-disabled">
+      <h2 class="enquiries-title">
         General Enquiries<br />
         & Business Info
       </h2>
@@ -76,6 +74,52 @@
         Don’t fancy contact forms ?<br />
         Say hello! → nino@gridbase.studio
       </p>
+    </div>
+    <!-- desktop version of the credits and enquiries section -->
+    <div class="desktop-credits-general-enquiries mobile-disabled">
+      <div class="design-development-credits">
+        <h2 class="credits-title">Design & Development Credits</h2>
+        <p class="credits-paragraph">
+          Visual narrative & design concepts<br />
+          by
+          <span class="cormorand-italic">founder Nino.P</span>
+        </p>
+        <p class="credits-paragraph">
+          Development & implementation architecture<br />
+          by
+          <span class="cormorand-italic">gridbase® studio</span>
+        </p>
+        <p class="credits-paragraph">
+          Photography by <span class="cormorand-italic">Paweł Czerwiński</span>
+        </p>
+        <g-link to="/work/" class="footer-arrow-link">
+          <span class="footer-link-text">see our work</span>
+          <g-image
+            src="~/images/curved-arrow.svg"
+            alt="link-arrow"
+            class="button-link-arrow"
+          />
+        </g-link>
+      </div>
+      <div class="general-enquiries">
+        <h2 class="enquiries-title">
+          General Enquiries<br />
+          & Business Info
+        </h2>
+        <g-link to="/contact/" class="footer-arrow-link">
+          <span class="footer-link-text">contact us</span>
+          <g-image
+            src="~/images/curved-arrow.svg"
+            alt="link-arrow"
+            class="button-link-arrow"
+          />
+        </g-link>
+        <h5 class="direct-option-text">Or</h5>
+        <p class="direct-email-options">
+          Don’t fancy contact forms ?<br />
+          Say hello! → nino@gridbase.studio
+        </p>
+      </div>
     </div>
     <div class="gradient-footer-end">
       <h3 class="copyright">©2021 - gridbase® studio</h3>
@@ -245,7 +289,7 @@ body {
     align-items: center;
     padding-top: 120px;
     padding-bottom: 30px;
-    .enquries-title {
+    .enquiries-title {
       max-width: 70vw;
       text-align: center;
     }
@@ -310,6 +354,9 @@ body {
 
 // Desktop media queries
 @media screen and (min-width: 1025px) and (max-width: 1919px) {
+  .desktop-disabled {
+    display: none;
+  }
   .main-footer {
     max-width: 100vw;
     display: flex;
@@ -321,26 +368,37 @@ body {
       min-height: 75px;
       border-bottom: 1px solid $nav-line;
       .footer-brand-statement {
+        margin-bottom: 65px;
         text-align: center;
         font-style: italic;
         font-weight: 400;
-        font-size: 2.6em;
+        font-size: 3.3em;
         font-family: "Cormorant Garamond";
         letter-spacing: -0.84;
       }
     }
     .home-link-and-qualities {
+      min-height: 85vh;
       margin-top: 25px;
-      margin-bottom: 25px;
-      padding: 0 19px 25px 19px;
+      margin-bottom: 0px;
+      padding: 40px 19px 145px 19px;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       border-bottom: 1px solid $nav-line;
       .qualities-box {
-        max-width: 40vw;
+        position: relative;
+        right: 7px;
+        min-height: 45px;
+        max-width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+        font-size: 19px;
+        text-transform: uppercase;
+        padding: 0 100px;
+        opacity: 30%;
       }
       .desktop-disabled {
         display: none;
@@ -383,69 +441,99 @@ body {
         }
       }
     }
-    .design-development-credits {
+    //desktop external wrapper
+    .desktop-credits-general-enquiries {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-bottom: 55px;
-      border-bottom: 1px solid $nav-line;
-      .credits-title {
-        text-align: center;
-        max-width: 70vw;
-      }
-      .credits-paragraph {
-        font-family: "Questrial";
-        font-size: 1em;
-        text-align: center;
-        .cormorand-italic {
-          font-family: "Cormorant Garamond";
-          font-style: italic;
-          font-size: 1.38em;
-        }
-      }
-      .footer-arrow-link {
-        margin-top: 50px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+      .design-development-credits {
+        min-height: 100%;
+        max-height: 100%;
+        min-width: 50%;
+        max-width: 50%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        color: $grid-black;
-        .footer-link-text {
-          font-size: 1.4em;
+        align-items: flex-start;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-bottom: 55px;
+        border-bottom: 1px solid $nav-line;
+        border-right: 1px solid $nav-line;
+        .credits-title {
+          font-size: 35px;
+          text-align: left;
+          max-width: 375px;
+        }
+        .credits-paragraph {
+          font-family: "Questrial";
+          font-size: 1em;
+          text-align: left;
+          .cormorand-italic {
+            font-family: "Cormorant Garamond";
+            font-style: italic;
+            font-size: 1.38em;
+          }
+        }
+        .footer-arrow-link {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-decoration: none;
+          color: $grid-black;
+          .footer-link-text {
+            font-size: 1.4em;
+          }
         }
       }
+      .general-enquiries {
+        min-height: 100%;
+        min-width: 50%;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: stretch;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid $nav-line;
+        .enquiries-title {
+          max-width: 70vw;
+          text-align: left;
+        }
+        .footer-arrow-link {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-decoration: none;
+          color: $grid-black;
+          .footer-link-text {
+            font-size: 1.4em;
+          }
+        }
+        .direct-option-text {
+          font-size: 1em;
+          margin-top: 55px;
+          margin-bottom: 20px;
+        }
+        .direct-email-options {
+          font-size: 1em;
+          text-align: left;
+        }
+      }
+    }
+    //mobile styles that require presence for the desktop-disabled class to be applied correctly
+    .design-development-credits {
+      display: none;
     }
     .general-enquiries {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 120px;
-      padding-bottom: 30px;
-      .enquries-title {
-        max-width: 70vw;
-        text-align: center;
-      }
-      .footer-arrow-link {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        color: $grid-black;
-        .footer-link-text {
-          font-size: 1.4em;
-        }
-      }
-      .direct-option-text {
-        font-size: 1em;
-        margin-top: 55px;
-        margin-bottom: 20px;
-      }
-      .direct-email-options {
-        font-size: 1em;
-        text-align: center;
-      }
+      display: none;
     }
+
+    //end of mobile styles ↓ here begin normal footer styles
     .gradient-footer-end {
       max-width: 100vw;
       display: flex;
@@ -480,19 +568,6 @@ body {
       .legal-link {
         color: #fff;
         text-decoration: none;
-      }
-    }
-  }
-}
-
-//Mobile Media Queries
-@media screen and (min-width: 320px) and (max-width: 445px) {
-  .main-footer {
-    .home-link-and-qualities {
-      .qualities-box {
-      }
-      .mobile-disabled {
-        display: none;
       }
     }
   }
