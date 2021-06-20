@@ -42,7 +42,7 @@
           <div class="open-menu-warp closed-menu-wrap">
             <!-- menu links container -->
             <div class="menu-top-links">
-              <g-link to="/" class="menu-link">services</g-link>
+              <a href="#services-provided" class="menu-link">services</a>
               <g-link to="/about/" class="menu-link">about</g-link>
               <g-link to="/work/" class="menu-link">work gallery</g-link>
             </div>
@@ -168,7 +168,7 @@ $tab-xlarge: 1366px;
     }
   }
   .nav-flex-right {
-    max-width: 100%;
+    max-width: auto;
     min-width: 70%;
     display: flex;
     flex-direction: row;
@@ -285,11 +285,14 @@ $tab-xlarge: 1366px;
 
 @media screen and (min-width: $mob-exslim) and (max-width: 1020px) {
   .navbar {
+    background-color: $dev-orange;
     max-width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    // width: 100vw;
+    // min-width: 100vw;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: flex-start;
     .main-nav {
       display: flex;
       flex-direction: row;
@@ -297,15 +300,15 @@ $tab-xlarge: 1366px;
       justify-content: space-between;
       position: fixed;
       top: -0.1px;
-      min-width: 100vw;
-      max-width: 100vw;
-      width: 100vw;
+      min-width: 100%;
+      max-width: 100%;
+      width: 100%;
+      padding: 0 24px 0 12px;
+      margin: 0;
+      border-bottom: 1px solid $nav-line;
       // min-height: 50px;
       // max-height: 50px;
       // height: 50px;
-      padding: 0 23% 0 12px;
-      margin: 0;
-      border-bottom: 1px solid $nav-line;
       .logo-wrap {
         min-height: 50px;
         max-height: 50px;
@@ -325,137 +328,141 @@ $tab-xlarge: 1366px;
         }
       }
       .nav-flex-right {
+        max-width: auto;
+        width: auto;
+        min-width: auto;
         padding-right: 0;
-      }
-      .middle-space {
-        display: none;
-      }
-      .lang-switch-wrap {
-        min-height: 50px;
-        max-height: 50px;
-        height: 50px;
-        min-width: 59px;
-        max-width: 59px;
-        width: 59px;
-        border-top: 0;
-        border-right: 0;
-        border-bottom: 0;
-        border-left: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-right: 8px;
-        .nav-switch {
-          display: none;
-        }
-        .nav-switch-simple {
-          display: inline;
-          position: relative;
-          top: 2px;
-          min-width: 29px;
-          max-width: 29px;
-          width: 29px;
-          min-height: 29px;
-          max-height: 29px;
-          height: 29px;
-        }
-      }
-      .link-one-wrap {
-        display: none;
-        min-width: 0px;
-        max-width: 0px;
-        width: 0px;
-        min-height: 0px;
-        max-height: 0px;
-        height: 0px;
-        border-top: 0;
-        border-right: 0;
-        border-bottom: 0;
-        border-left: 0;
-        .services-link {
-          display: none;
-          text-decoration: none;
-          color: inherit;
-          font-size: 19px;
-          font-weight: 300;
-        }
-      }
-      .link-two-wrap {
-        display: none;
-        min-height: 0px;
-        max-height: 0px;
-        height: 0px;
-        min-width: 0px;
-        max-width: 0px;
-        width: 0px;
-        border-top: 0;
-        border-right: 0;
-        border-bottom: 0;
-        border-left: 0;
-        .about-link {
-          display: none;
-          text-decoration: none;
-          color: inherit;
-          font-size: 19px;
-          font-weight: 200;
-        }
-      }
-      .contact-el-wrap {
-        display: none;
-        min-height: 0px;
-        max-height: 0px;
-        height: 0px;
-        min-width: 0px;
-        max-width: 0px;
-        width: 0px;
-        border-top: 0;
-        border-bottom: 0;
-        border-left: 0;
-        .contact-link {
-          display: none;
-          text-decoration: none;
-          color: inherit;
-          font-size: 19px;
-          font-weight: 200;
-          .contact-btn {
-            display: none;
-            min-width: 0px;
-            max-width: 0px;
-            width: 0px;
-          }
-        }
-      }
-      .mobile-menu-wrap {
-        min-height: 50px;
-        max-height: 50px;
-        height: 50px;
-        min-width: 50px;
-        max-width: 50px;
-        width: 50px;
-        border-top: 0;
-        border-right: 0;
-        border-bottom: 0;
-        border-left: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        .open-menu-warp {
+        margin: 0;
+        .lang-switch-wrap {
+          min-height: 50px;
+          max-height: 50px;
+          height: 50px;
+          min-width: 59px;
+          max-width: 59px;
+          width: 59px;
+          border-top: 0;
+          border-right: 0;
+          border-bottom: 0;
+          border-left: 0;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          border-radius: 20px;
-          position: absolute;
-          right: 0;
-          max-width: 65vw;
-          min-width: 65vw;
-          width: 65vw;
+          margin-right: 8px;
+          .nav-switch {
+            display: none;
+          }
+          .nav-switch-simple {
+            display: inline;
+            position: relative;
+            top: 2px;
+            min-width: 29px;
+            max-width: 29px;
+            width: 29px;
+            min-height: 29px;
+            max-height: 29px;
+            height: 29px;
+          }
         }
-        .closed-menu-wrap {
+        .link-one-wrap {
           display: none;
+          min-width: 0px;
+          max-width: 0px;
+          width: 0px;
+          min-height: 0px;
+          max-height: 0px;
+          height: 0px;
+          border-top: 0;
+          border-right: 0;
+          border-bottom: 0;
+          border-left: 0;
+          .services-link {
+            display: none;
+            text-decoration: none;
+            color: inherit;
+            font-size: 19px;
+            font-weight: 300;
+          }
         }
+        .link-two-wrap {
+          display: none;
+          min-height: 0px;
+          max-height: 0px;
+          height: 0px;
+          min-width: 0px;
+          max-width: 0px;
+          width: 0px;
+          border-top: 0;
+          border-right: 0;
+          border-bottom: 0;
+          border-left: 0;
+          .about-link {
+            display: none;
+            text-decoration: none;
+            color: inherit;
+            font-size: 19px;
+            font-weight: 200;
+          }
+        }
+        .contact-el-wrap {
+          display: none;
+          min-height: 0px;
+          max-height: 0px;
+          height: 0px;
+          min-width: 0px;
+          max-width: 0px;
+          width: 0px;
+          border-top: 0;
+          border-bottom: 0;
+          border-left: 0;
+          .contact-link {
+            display: none;
+            text-decoration: none;
+            color: inherit;
+            font-size: 19px;
+            font-weight: 200;
+            .contact-btn {
+              display: none;
+              min-width: 0px;
+              max-width: 0px;
+              width: 0px;
+            }
+          }
+        }
+        .mobile-menu-wrap {
+          min-height: 50px;
+          max-height: 50px;
+          height: 50px;
+          min-width: 50px;
+          max-width: 50px;
+          width: 50px;
+          border-top: 0;
+          border-right: 0;
+          border-bottom: 0;
+          border-left: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .open-menu-warp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            position: absolute;
+            right: 0;
+            max-width: 65vw;
+            min-width: 65vw;
+            width: 65vw;
+          }
+          .closed-menu-wrap {
+            display: none;
+          }
+        }
+      }
+      .middle-space {
+        display: none;
       } // current nav wrapper | add new containers after this
     } // main nav end
   } // vue navbar component end
