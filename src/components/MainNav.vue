@@ -39,7 +39,7 @@
             alt="mobile menu icon"
           />
           <!-- open menu wrapper -->
-          <div class="open-menu-warp closed-menu-wrap">
+          <div class="closed-menu-wrap">
             <!-- menu links container -->
             <div class="menu-top-links">
               <a href="#services-provided" class="menu-link">services</a>
@@ -455,9 +455,19 @@ $tab-xlarge: 1366px;
             max-width: 65vw;
             min-width: 65vw;
             width: 65vw;
+            .menu-top-links {
+              background-color: $dev-green;
+              display: flex;
+              flex-direction: column;
+            }
           }
           .closed-menu-wrap {
             display: none;
+            .menu-top-links {
+              background-color: $dev-green;
+              display: flex;
+              flex-direction: column;
+            }
           }
         }
       }

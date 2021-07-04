@@ -41,10 +41,9 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-
 // Homepage Contact Indicator
 .contact-indicator {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   max-width: 82px;
@@ -62,360 +61,94 @@ body {
   }
 }
 
-// hero component
 .hero-wrap {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 90px;
-  margin-bottom: 70px;
-  position: relative;
-  top: 35px;
-  .mobile-title {
-    display: none;
-  }
-  .mobile-hero-btn {
-    display: none;
-  }
-  .left-side {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 19px 0 19px;
+  overflow-x: hidden;
+  .hero-heading-container {
+    background-color: $dev-orange;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 88px;
+    width: auto;
+    justify-content: flex-end;
+    align-items: flex-start;
     position: relative;
-    right: 30px;
-    max-width: 948px;
-    .main-hero-img {
-      max-width: 770px;
-      min-width: 770px;
-      width: 770px;
+    .hero-heading {
+      background-color: $dev-blue;
+      justify-self: flex-end;
+      max-width: 300px;
+      z-index: 3;
+      position: absolute;
+      top: 160px;
+      font-size: 33.6px;
+      color: #fff;
+      text-align: right;
+      font-weight: 400;
     }
-    .window-wrapper {
-      margin-left: -55px;
+    .hero-content-image {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
-      justify-content: space-around;
-      .js-window-img {
-        max-width: 178px;
-        width: 178px;
-        min-width: 178px;
+      position: relative;
+      .purple-hero-blur {
+        min-width: 266px;
+        width: 266px;
+        max-width: 266px;
+        background-color: $dev-green;
       }
-      .scss-window-img {
-        position: relative;
-        top: 33px;
-        max-width: 167px;
-        width: 167px;
-        min-width: 167px;
+      .round-vapors-image {
+        min-width: 213px;
+        width: 213px;
+        max-width: 213px;
       }
     }
   }
-  .right-side {
-    // background-color: $dev-green;
+}
+#services-provided {
+  display: flex;
+  flex-direction: column;
+  .services-main-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    max-width: 355px;
-    min-width: 355px;
-    width: 355px;
-    position: relative;
-    top: 25px;
-    right: 37px;
-    .main-heading {
-      font-size: 38px;
-      font-weight: 200;
-      line-height: 49px;
-    }
-    .hero-descrip {
-      font-size: 19px;
-      line-height: 30px;
-      margin-bottom: 28px;
-      font-weight: 200;
-    }
-    .button-wrap {
-      color: $grid-black;
-      text-decoration: none;
-      min-width: inherit;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 65px;
-      position: relative;
-      right: 26px;
-      .hero-btn {
-        font-family: inherit;
-        font-size: 31px;
-        background-color: transparent;
-        border: 0;
-      }
-      .hero-btn:hover {
-        cursor: pointer;
-        transform: scale(0.9);
-        transition: 0.3s ease-out;
-      }
-      .hero-btn:focus {
-        outline: 0;
-      }
-      .btn-arrow {
-        min-width: inherit;
-        transform: scale(0.85);
-      }
-    }
-  }
-}
-
-// ideas-section
-.ideas {
-  position: relative;
-  padding: 15px 60px;
-  min-height: 200vh;
-  .massive-h1 {
-    position: relative;
-    font-size: 200px;
-    font-weight: 300;
-    line-height: 235px;
-    margin-bottom: 0;
-  }
-  .ideas-h3 {
-    position: absolute;
-    top: 387px;
-    left: 548px;
-    font-size: 84px;
-    font-weight: 300;
-  }
-  // .graphic-eight {
-  //   min-width: 1900px;
-  //   max-width: 1900px;
-  //   position: absolute;
-  //   top: 500px;
-  //   right: -200px;
-  // }
-  .idea-one {
-    // background-color: $dev-green;
-    max-width: 326px;
-    position: relative;
-    left: 380px;
-    font-size: 19px;
-    font-weight: 300;
-  }
-  .idea-two {
-    // background-color: $dev-green;
-    max-width: 326px;
-    position: relative;
-    top: 40px;
-    left: 42px;
-    font-size: 19px;
-    font-weight: 300;
-    text-align: right;
-  }
-}
-
-// Responsive Mobile design
-
-@media screen and (min-width: $mob-exslim) and (max-width: 1020px) {
-  .contact-indicator {
-    display: none;
-  }
-  .hero-wrap {
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 70px;
-    overflow-x: hidden;
-    // disable left side of the hero
-    .left-side {
-      display: none;
-      .main-img {
-        display: none;
-      }
-      .hero-arrow {
-        display: none;
-      }
+    padding: 15px 19px;
+    .services-headline {
+      font-size: 70px;
+      line-height: 58px;
+      font-weight: 400;
+      color: $grid-black;
     }
-
-    // disable the right side of the hero
-    .right-side {
-      display: none;
-      .main-heading {
-        display: none;
-      }
-      .hero-descrip {
-        display: none;
-      }
-      .button-wrap {
-        display: none;
-        .hero-btn {
-          display: none;
-        }
-        .btn-arrow {
-          display: none;
-        }
-      }
-    }
-    .mobile-title {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      .flex-left {
-        min-width: 100vw;
-        width: 100vw;
-        max-width: 100vw;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-end;
-        .mobile-h2 {
-          position: absolute;
-          right: 19px;
-          font-size: 33px;
-          font-weight: 300;
-          text-align: right;
-          max-width: 298px;
-          width: 298px;
-          min-width: 298px;
-          margin: 8px 0 0 0;
-          padding: 0;
-        }
-        .mobile-hero-img {
-          max-width: 355px;
-          margin-right: -140px;
-        }
-      }
-      .mobile-hero-p {
-        margin-left: -45px;
-        font-size: 15.5px;
-        margin-top: 55px;
-        max-width: 272px;
-        line-height: 26px;
-      }
-    }
-    .mobile-hero-btn {
-      margin-top: 45px;
-      min-width: 191px;
-      max-width: 191px;
-      min-height: 53px;
-      height: 53px;
-      max-height: 53px;
-      border-radius: 14.5px;
-      background-color: $grid-black;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      text-decoration: none;
-      cursor: pointer;
-    }
-  }
-
-  // disable parts of the ideas section  || might be changed later !!
-  .massive-h1 {
-    display: none;
-  }
-  .ideas-h3 {
-    display: none;
-  }
-  .graphic-eight {
-    display: none;
-  }
-  .idea-one {
-    display: none;
-  }
-  .idea-two {
-    display: none;
-  }
-}
-// 375PX Breakpoint
-@media screen and (min-width: $mob-regular) {
-  .hero-wrap {
-    margin-top: 65px;
-  }
-  .mobile-title {
-    .mobile-hero-p {
-      margin-top: 50px;
+    .services-arrow {
+      max-width: 55px;
+      //
+      width: 26px;
+      height: 40px;
+      object-fit: contain;
+      transform: rotate(180deg);
     }
   }
 }
 
-// 375PX WIDTH & 667PX HEIGHT -- iPHONE 6,7,8
-// @media screen and (min-width: $mob-regular) and (max-width: 389px),
-//   screen and (min-height: 667px) {
-//   .hero-wrap {
-//     margin-top: 65px;
-//   }
-//   .mobile-title {
-//     .mobile-hero-p {
-//       margin-top: 40px;
-//     }
-//   }
-// }
-
-// 375PX WIDTH & 812PX HEIGHT -- iPHONE X, XS, 11 PRO
-// @media screen and (min-width: $mob-regular), screen and (max-height: 812px) {
-//   .mobile-title {
-//     .mobile-hero-p {
-//       margin-top: 70px;
-//     }
-//   }
-// }
-
-// 390PX BREAKPOINT -- iPHONE 12
-@media screen and (min-width: $mob-medium) {
-  .hero-wrap {
-    margin-top: 80px;
-  }
-}
-
-// 414PX BREAKPOINT -- iPHONE 6+,7+,8+ - XS MAX -  11 PRO MAX
-@media screen and (min-width: $mob-plus) {
-  .hero-wrap {
-    margin-top: 90px;
-    padding-bottom: 35px;
-    .mobile-title {
-      .flex-left {
-        .mobile-h2 {
-          font-size: 38px;
-          font-weight: 300;
-          text-align: right;
-          max-width: 298px;
-          width: 298px;
-          min-width: 298px;
-          margin: 8px 0 0 0;
-          padding: 0;
-        }
-        .mobile-hero-img {
-          min-width: 395px;
-          max-width: 395px;
-        }
-      }
-      .mobile-hero-p {
-        margin-left: 22px;
-        font-size: 17px;
-        margin-top: 55px;
-        line-height: 26px;
-        align-self: flex-start;
-      }
+// Desktop styles
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+  // Homepage Contact Indicator
+  .contact-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 82px;
+    position: absolute;
+    top: 66px;
+    right: 33px;
+    .home-contact-arrow {
+      max-width: 15px;
     }
-  }
-  .mobile-hero-btn {
-    transform: scale(1.4);
-  }
-}
-
-//Global Mobile Styles
-@media screen and (min-width: 320px) and (max-width: 430px) {
-  .mobile-disabled {
-    display: none;
-  }
-}
-
-//Global Desktop Styles
-@media screen and (min-width: 1025px) and (max-width: 1920) {
-  .desktop-disabled {
-    display: none;
+    .home-contact-text {
+      color: #9d9d9d;
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 300;
+    }
   }
 }
