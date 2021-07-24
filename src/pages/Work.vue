@@ -6,19 +6,12 @@
         Enjoy our selected projects, case studies and see if we speak the same
         design language.
       </p>
-      <img src="../images/next.svg" alt="" class="showcase-arrow" />
-      <div class="work-img-gallery">
-        <img
-          src="../images/pur-aesthetic-hero.jpg"
-          alt="desktop and mobile furniture showcase"
-          class="first-work-img"
-        />
-        <img
-          src="../images/pur-aesthetic-single-hero.jpg"
-          alt="desktop and furniture showcase"
-          class="second-work-img"
-        />
-      </div>
+      <img
+        src="../images/next.svg"
+        alt="small arrow pointer"
+        class="showcase-arrow"
+      />
+      <div class="work-img-gallery"></div>
     </div>
   </Layout>
 </template>

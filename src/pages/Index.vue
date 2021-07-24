@@ -39,15 +39,18 @@
         />
       </div>
     </a>
+    <StudioFeatures />
   </Layout>
 </template>
 
 <script>
+import StudioFeatures from "~/components/StudioFeatures.vue";
+
 export default {
   name: "Homepage",
-  // components: {
-  //   Footer,
-  // },
+  components: {
+    StudioFeatures,
+  },
   metaInfo() {
     return {
       title: "gridbase studio® | Home",

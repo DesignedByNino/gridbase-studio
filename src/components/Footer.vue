@@ -180,7 +180,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.mobile-disabled {
+  display: none;
+}
 .main-footer {
   max-width: 100vw;
   display: flex;

@@ -14,11 +14,11 @@ function addStyleResource(rule) {
       patterns: [
         path.resolve(__dirname, './src/assets/sass/_globals.sass'),
         // or if you use scss
-        path.resolve(__dirname, './src/assets/sass/_globals.scss'),
+        path.resolve(__dirname, './src/assets/scss/_globals.scss'),
         // you can also use a glob if you'd prefer
         path.resolve(__dirname, './src/assets/sass/*.sass'),
         // or scss
-        path.resolve(__dirname, './src/assets/sass/*.scss'),
+        path.resolve(__dirname, './src/assets/scss/*.scss'),
       ],
     })
 }
@@ -32,31 +32,5 @@ module.exports = {
       addStyleResource(config.module.rule('scss').oneOf(type))
     })
   },
-  siteName: 'gridbase studio®',
-
-  plugins: [
-    {
-      use: '@gridsome/plugin-critical',
-      options: {
-        paths: ['/'],
-        width: 1300,
-        height: 900
-      }
-    }
-  ],
-  rules: [
-    // ... other rules omitted
-
-    // this will apply to both plain `.scss` files
-    // AND `<style lang="scss">` blocks in `.vue` files
-    {
-      test: /\.scss$/,
-      use: [
-        'vue-style-loader',
-        'css-loader',
-        'sass-loader'
-      ]
-    }
-  ],
-  chainWebpack: config => config.mode('development')
+  siteName: 'gridbase studio®'
 }
