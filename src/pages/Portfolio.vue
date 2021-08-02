@@ -18,9 +18,9 @@
 
 <script>
 export default {
-  name: "Work-Gallery",
+  name: "Portfolio",
   metaInfo: {
-    title: "Work Gallery ➛ gridbase studio®",
+    title: "Portfolio ➛ gridbase studio®",
   },
 };
 </script>

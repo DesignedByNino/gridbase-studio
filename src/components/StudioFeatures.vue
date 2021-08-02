@@ -22,5 +22,6 @@ export default {
 .studio-features-container {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 </style>
