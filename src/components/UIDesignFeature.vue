@@ -7,6 +7,7 @@
         alt="abstract background image"
       /> -->
       <h1 class="feature-title">UI Design</h1>
+      <div class="feature-title-underline"></div>
       <span class="title-white-line"></span>
       <div class="feature-text-body">
         <p class="feature-paragraph">A visual therapy, no compromise.</p>
@@ -110,9 +111,48 @@ export default {
     display: flex;
     flex-direction: column;
     border-radius: 23px;
+    padding: 0 18.5px;
+  }
+  .feature-title {
+    font-style: normal;
+    font-size: 46.85px;
+    line-height: 48px;
+  }
+  .feature-title-underline {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    background-color: $grid-black;
+    width: 181px;
+    height: 4px;
+    border-radius: 1.3px;
+    opacity: 69%;
+  }
+  .feature-text-body {
+    position: relative;
+    left: 125px;
+    width: 162px;
+    font-size: 14.85px;
+    line-height: 19px;
+  }
+  .feature-id-number {
+    position: absolute;
+    width: 126px;
+    height: 65px;
+    left: -12px;
+    top: 305px;
+    font-style: normal;
+    font-size: 81.85px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform: rotate(-90deg);
+    opacity: 69%;
   }
   .color-blur {
-    display: flex;
+    display: none;
+    // display: flex;
     flex-direction: column;
     align-items: flex-end;
     position: absolute;

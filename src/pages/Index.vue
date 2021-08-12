@@ -252,6 +252,7 @@ body {
     top: 23px;
     .hero-button-text {
       font-weight: 200;
+
       font-style: normal;
     }
   }
