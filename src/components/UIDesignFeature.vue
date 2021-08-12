@@ -126,7 +126,7 @@ export default {
     width: 181px;
     height: 4px;
     border-radius: 1.3px;
-    opacity: 69%;
+    opacity: 0.7;
   }
   .feature-text-body {
     position: relative;
@@ -148,7 +148,7 @@ export default {
     align-items: center;
     text-align: center;
     transform: rotate(-90deg);
-    opacity: 69%;
+    opacity: 0.7;
   }
   .color-blur {
     display: none;
