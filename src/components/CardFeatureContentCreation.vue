@@ -67,7 +67,7 @@
 
 <script>
 export default {
-  name: "UIDesignFeature",
+  name: "CardFeatureContentCreation",
 };
 </script>
 
@@ -84,6 +84,7 @@ export default {
   min-width: auto;
   min-height: 446px;
   padding: 0 18.5px;
+  margin: 16px 0;
   display: flex;
   flex-direction: column;
   .feature-card-rounded {
@@ -91,15 +92,15 @@ export default {
     background-image: #99ffcc;
     background-image: radial-gradient(
         at 48% 98%,
-        hsla(29, 83%, 71%, 1) 0,
+        rgb(242, 179, 120) 0,
         transparent 52%
       ),
-      radial-gradient(at 47% 76%, hsla(119, 70%, 69%, 1) 0, transparent 59%),
-      radial-gradient(at 10% 76%, hsla(109, 71%, 74%, 1) 0, transparent 47%),
-      radial-gradient(at 82% 69%, hsla(298, 60%, 73%, 1) 0, transparent 50%),
-      radial-gradient(at 10% 42%, hsla(79, 82%, 77%, 1) 0, transparent 40%),
-      radial-gradient(at 10% 37%, hsla(191, 98%, 66%, 1) 0, transparent 49%),
-      radial-gradient(at 57% 19%, hsla(329, 95%, 78%, 1) 0, transparent 51%);
+      radial-gradient(at 47% 76%, rgb(122, 231, 121) 0, transparent 59%),
+      radial-gradient(at 10% 76%, rgb(159, 236, 142) 0, transparent 47%),
+      radial-gradient(at 82% 69%, rgb(225, 145, 227) 0, transparent 50%),
+      radial-gradient(at 10% 42%, rgb(214, 244, 148) 0, transparent 40%),
+      radial-gradient(at 10% 37%, rgb(83, 222, 253) 0, transparent 49%),
+      radial-gradient(at 57% 19%, rgb(252, 146, 201) 0, transparent 51%);
     // mesh gradient end code
     position: relative;
     min-width: auto;
@@ -166,5 +167,9 @@ export default {
       height: auto;
     }
   }
+}
+
+// large phone breakpoint - iPhone Plus series & iPhone Max series
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
 }
 </style>

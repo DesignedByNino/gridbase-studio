@@ -1,16 +1,25 @@
 <template>
   <div class="studio-features-container">
-    <UIDesignFeature />
+    <CardFeatureDesign />
+    <CardFeatureArtDirection />
+    <CardFeatureDevelopment />
+    <CardFeatureContentCreation />
   </div>
 </template>
 
 <script>
-import UIDesignFeature from "~/components/UIDesignFeature.vue";
+import CardFeatureDesign from "~/components/CardFeatureDesign.vue";
+import CardFeatureArtDirection from "~/components/CardFeatureArtDirection.vue";
+import CardFeatureDevelopment from "~/components/CardFeatureDevelopment.vue";
+import CardFeatureContentCreation from "~/components/CardFeatureContentCreation.vue";
 
 export default {
   name: "StudioFeatures",
   components: {
-    UIDesignFeature,
+    CardFeatureDesign,
+    CardFeatureArtDirection,
+    CardFeatureDevelopment,
+    CardFeatureContentCreation,
   },
 };
 </script>
