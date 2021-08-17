@@ -1,7 +1,7 @@
 <template>
   <div class="studio-features-container">
     <CardFeatureDesign />
-    <CardFeatureArtDirection />
+    <CardFeatureBranding />
     <CardFeatureDevelopment />
     <CardFeatureContentCreation />
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import CardFeatureDesign from "~/components/CardFeatureDesign.vue";
-import CardFeatureArtDirection from "~/components/CardFeatureArtDirection.vue";
+import CardFeatureBranding from "~/components/CardFeatureBranding.vue";
 import CardFeatureDevelopment from "~/components/CardFeatureDevelopment.vue";
 import CardFeatureContentCreation from "~/components/CardFeatureContentCreation.vue";
 
@@ -17,7 +17,7 @@ export default {
   name: "StudioFeatures",
   components: {
     CardFeatureDesign,
-    CardFeatureArtDirection,
+    CardFeatureBranding,
     CardFeatureDevelopment,
     CardFeatureContentCreation,
   },

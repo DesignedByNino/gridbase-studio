@@ -262,6 +262,7 @@ body {
 #services-provided {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   .services-main-container {
     display: flex;
     flex-direction: column;
@@ -272,12 +273,11 @@ body {
       line-height: 58px;
       font-weight: 400;
       color: $grid-black;
+      margin-bottom: 74px;
     }
     .services-arrow {
-      max-width: 55px;
       //
-      width: 26px;
-      height: 40px;
+      height: 45px;
       object-fit: contain;
       transform: rotate(180deg);
     }

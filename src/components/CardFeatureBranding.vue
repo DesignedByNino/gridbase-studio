@@ -6,34 +6,34 @@
         class="background-image"
         alt="abstract background image"
       /> -->
-      <h1 class="feature-title">Creative development</h1>
-      <div class="feature-id-number">0.3</div>
+      <h1 class="feature-title">Branding & identity</h1>
+      <div class="feature-id-number">0.2</div>
       <div class="feature-title-underline"></div>
       <div class="feature-text-body">
         <p class="feature-paragraph">
-          All the power you need to scale your creative ideas into fully fledged
-          web experiences with full stack support.
+          Making sure people identify you and your brand for what it truly is,
+          creating a lasting unique impression.
         </p>
       </div>
       <svg
-        class="vertical-blur-03"
+        class="vertical-blur-02"
         width="363"
-        height="638"
+        height="570"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g filter="url(#filter0_f)">
           <path
-            d="M96 96h148c12.703 0 23 10.297 23 23v400c0 12.703-10.297 23-23 23H96V96z"
-            fill="#F7C77B"
-            fill-opacity=".8"
+            d="M96 28h148c12.703 0 23 10.2975 23 23v400c0 12.703-10.297 23-23 23H96V28z"
+            fill="#82427B"
+            fill-opacity=".72"
           />
         </g>
         <defs>
           <filter
             id="filter0_f"
             x=".860138"
-            y=".860138"
+            y="-67.1399"
             width="361.28"
             height="636.28"
             filterUnits="userSpaceOnUse"
@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  name: "CardFeatureDevelopment",
+  name: "CardFeatureBranding",
 };
 </script>
 
@@ -79,7 +79,7 @@ export default {
   display: flex;
   flex-direction: column;
   .feature-card-rounded {
-    background-image: url(../images/studio-features/cotton-sun-01.jpeg);
+    background-image: url(../images/studio-features/art-direction.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -100,7 +100,7 @@ export default {
       line-height: 48px;
       font-weight: 100;
       z-index: 11;
-      color: $grid-black;
+      color: #fff;
     }
     .feature-id-number {
       position: absolute;
@@ -114,8 +114,8 @@ export default {
       line-height: 84px;
       display: flex;
       align-items: center;
-      color: $grid-black;
-      opacity: 0.9;
+      color: #fff;
+      opacity: 0.8;
       z-index: 11;
     }
     .feature-title-underline {
@@ -123,10 +123,10 @@ export default {
       top: 68.4%;
       right: 0px;
       bottom: 30.49%;
-      background-color: $grid-black;
+      background-color: #fff;
       width: 181px;
       height: 3.5px;
-      color: $grid-black;
+      color: #fff;
       z-index: 11;
     }
     .feature-text-body {
@@ -143,11 +143,11 @@ export default {
       margin: 0;
       padding: 0;
       z-index: 11;
-      color: $grid-black;
+      color: #fff;
     }
-    .vertical-blur-03 {
+    .vertical-blur-02 {
       position: absolute;
-      left: 57px;
+      left: 59px;
     }
   }
 }
